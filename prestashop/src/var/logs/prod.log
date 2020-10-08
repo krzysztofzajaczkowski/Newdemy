@@ -128,3 +128,4 @@
 [2020-10-08 11:18:24] app.INFO: Protect vendor folder in module leofeature [] []
 [2020-10-08 11:18:24] app.INFO: Module leofeature has no vendor folder [] []
 [2020-10-08 11:18:26] security.DEBUG: Stored the security token in the session. {"key":"_security_main"} []
+[2020-10-08 16:48:46] request.CRITICAL: Uncaught PHP Exception SmartyException: "Invalid compiled template for '/var/www/html/modules/welcome/OnBoarding/../views/contents/welcome.tpl'" at /var/www/html/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php line 116 {"exception":"[object] (SmartyException(code: 0): Invalid compiled template for '/var/www/html/modules/welcome/OnBoarding/../views/contents/welcome.tpl' at /var/www/html/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php:116)"} []
