@@ -1,0 +1,22 @@
+version: '2'
+services:
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: prestashop
+    volumes:
+      - ./docker/mysql:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+
+  app_dev:
+    build: ./docker/prestashop/
+    volumes : 
+      - ./prestashop/src/:/var/www/html:rw
+    restart: always
+    ports:
+      - 80:80
+    links:
+      - "mysql"
