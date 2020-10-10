@@ -1,0 +1,47 @@
+*ERROR* 	v1.7.6.5	2020/10/09 - 00:24:27: Table &#039;prestashop.ps_shop_url&#039; doesn&#039;t exist&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = &#039;localhost&#039; OR su.domain_ssl = &#039;localhost&#039;)
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.6.5	2020/10/09 - 00:24:47: Table &#039;prestashop.ps_shop_url&#039; doesn&#039;t exist&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = &#039;localhost&#039; OR su.domain_ssl = &#039;localhost&#039;)
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.6.5	2020/10/09 - 00:24:58: Table &#039;prestashop.ps_shop_url&#039; doesn&#039;t exist&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = &#039;localhost&#039; OR su.domain_ssl = &#039;localhost&#039;)
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.6.5	2020/10/09 - 00:24:59: Table &#039;prestashop.ps_shop_url&#039; doesn&#039;t exist&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = &#039;localhost&#039; OR su.domain_ssl = &#039;localhost&#039;)
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.6.5	2020/10/09 - 00:25:00: Table &#039;prestashop.ps_shop_url&#039; doesn&#039;t exist&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = &#039;localhost&#039; OR su.domain_ssl = &#039;localhost&#039;)
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.6.5	2020/10/09 - 00:25:25: Table &#039;prestashop.ps_shop_url&#039; doesn&#039;t exist&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = &#039;localhost&#039; OR su.domain_ssl = &#039;localhost&#039;)
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.6.5	2020/10/09 - 00:26:20: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.6.5	2020/10/09 - 00:26:24: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.6.5	2020/10/09 - 00:26:25: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.6.5	2020/10/09 - 00:26:25: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 127 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.6.5	2020/10/09 - 00:55:13: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 127 in file classes/db/DbPDO.php
