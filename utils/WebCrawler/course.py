@@ -18,31 +18,6 @@ class Course:
                 else length))
 
 
-    def getImageSource(self):
-        return self.imageSource
-
-    def getTitle(self):
-        return self.title
-
-    def getDescription(self):
-        return self.desciption
-
-    def getAuthor(self):
-        return self.author
-
-    def getRating(self):
-        return self.rating
-
-    def getPrice(self):
-        return self.price
-
-    def getLength(self):
-        return self.length
-
-    def getLevel(self):
-        return self.level
-
-
     def makeJSON(self):
         dataString = {}
         dataString['title'] = self.title
