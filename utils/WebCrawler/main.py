@@ -29,13 +29,13 @@ for x in f:
 f.close()
 
 # writing JSON obejcts as a string to the file
-#file = open('objectsInJSON.txt','a')
+file = open('objectsInJSON.txt','a')
 
 
 # searching through each page from file and through each subpage (< 1 2 3 ... 7 >)
 for URL in URLs:
     emptyPage = False # means that the page number is out of range and there is no more content on this page
-    subpageCounter = 19
+    subpageCounter = 18
     while not emptyPage:
         print(URL+'&p='+str(subpageCounter))
         driver.get(URL+'&p='+str(subpageCounter))
@@ -43,7 +43,6 @@ for URL in URLs:
         try: # element with this class name is a big container for all smaller divs. If it is not present then there is no content on the page
             WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, 'course-list--container--3zXPS')))
             container = driver.find_element_by_class_name('course-list--container--3zXPS')
-            #WebDriverWait(driver, 20).until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'course-card--container--3w8Zm')))
             courses = container.find_elements_by_class_name('course-card--container--3w8Zm')
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             courses_images = []
@@ -52,13 +51,12 @@ for URL in URLs:
                 desc = course.find_element_by_class_name('udlite-text-sm').text
                 author = course.find_element_by_class_name('udlite-text-xs').text
 
-                '''try:
-                    spanElements = course.find_element_by_class_name('star-rating--rating-number--3lVe8')
+                try:
+                    spanElement = course.find_element_by_css_selector('span.star-rating--rating-number--3lVe8')
                 except NoSuchElementException:
                     ratings = 'Brak ocen'
-                    print("Brak ocen")
                 else:
-                    ratings = spanElements[len(spanElements) - 1].text'''
+                    ratings = spanElement.text
 
                 try:
                     priceDiv = course.find_element_by_css_selector('div.price-text--price-part--Tu6MH')
@@ -66,7 +64,16 @@ for URL in URLs:
                     price = spans[len(spans)-1].text
                 except NoSuchElementException:
                     price = 'Brak'
-                    print("Brak ceny")
+
+                try:
+                    details = course.find_elements_by_css_selector('span.course-card--row--1OMjg')
+                    courseLength = details[0].text
+                    print(courseLength)
+                    courseLevel = details[len(details)-1].text
+                except NoSuchElementException:
+                    print("Brak dodatkowych informacji")
+                    courseLength = 'Brak informacji'
+                    courseLevel = 'Brak informacji'
 
                 try:
                     image = course.find_element_by_class_name('course-card--course-image--2sjYP')
@@ -75,9 +82,7 @@ for URL in URLs:
                 except NoSuchElementException:
                     print("Brak zdjęcia")
 
-
-                c = Course(title, desc, author, '5.0' , #ratings,
-                            price, imageSourceURL)
+                c = Course(title, desc, author, ratings, price, imageSourceURL, courseLength, courseLevel)
                 coursesObjectsList.append(c)
 
         except TimeoutException:
@@ -86,13 +91,10 @@ for URL in URLs:
 
 driver.quit()
 
-for c in coursesObjectsList:
-    print(c.makeJSON())
 
 
-'''
 for course in coursesObjectsList:
     file.write(course.makeJSON())
     file.write("\n")
-'''
-#file.close()
+
+file.close()
