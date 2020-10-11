@@ -15,6 +15,7 @@ coursesObjectsList = []
 # Web Driver configuration
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
+
 '''
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('headless')
@@ -22,20 +23,16 @@ driver = webdriver.Chrome(chrome_options = chrome_options)
 '''
 
 # getting pages URLs
-f = open("URL.txt", "r")
+f = open("URLs.txt", "r")
 URLs = []
 for x in f:
     URLs.append(x)
 f.close()
 
-# writing JSON obejcts as a string to the file
-file = open('objectsInJSON.txt','a')
-
-
 # searching through each page from file and through each subpage (< 1 2 3 ... 7 >)
 for URL in URLs:
     emptyPage = False # means that the page number is out of range and there is no more content on this page
-    subpageCounter = 18
+    subpageCounter = 1
     while not emptyPage:
         print(URL+'&p='+str(subpageCounter))
         driver.get(URL+'&p='+str(subpageCounter))
@@ -45,7 +42,6 @@ for URL in URLs:
             container = driver.find_element_by_class_name('course-list--container--3zXPS')
             courses = container.find_elements_by_class_name('course-card--container--3w8Zm')
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            courses_images = []
             for course in courses: # each course we convert into an object of 'Course' class (data extraction)
                 title = course.find_element_by_class_name('udlite-heading-md').text
                 desc = course.find_element_by_class_name('udlite-text-sm').text
@@ -63,12 +59,11 @@ for URL in URLs:
                     spans = priceDiv.find_elements_by_tag_name('span')
                     price = spans[len(spans)-1].text
                 except NoSuchElementException:
-                    price = 'Brak'
+                    price = 'Brak ceny'
 
                 try:
                     details = course.find_elements_by_css_selector('span.course-card--row--1OMjg')
                     courseLength = details[0].text
-                    print(courseLength)
                     courseLevel = details[len(details)-1].text
                 except NoSuchElementException:
                     print("Brak dodatkowych informacji")
@@ -81,6 +76,7 @@ for URL in URLs:
                     imageSourceURL = image.get_attribute('src')
                 except NoSuchElementException:
                     print("Brak zdjęcia")
+                    imageSourceURL = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.smarthome.com.au%2Faeotec-z-wave-plug-in-smart-switch-6.html&psig=AOvVaw33Vx1wP6a3B3QAn_6WPe4A&ust=1602514347326000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNitsanlrOwCFQAAAAAdAAAAABAE'
 
                 c = Course(title, desc, author, ratings, price, imageSourceURL, courseLength, courseLevel)
                 coursesObjectsList.append(c)
@@ -88,13 +84,14 @@ for URL in URLs:
         except TimeoutException:
             print('[INFO] Ostatnia podstrona adresu URL')
             emptyPage = True
-
 driver.quit()
 
-
-
+# writing JSON objects as a string to the file
+file = open('objectsInJSON.txt','a')
 for course in coursesObjectsList:
-    file.write(course.makeJSON())
+    str = course.makeJSON()
+    print(str)
+    file.write(str)
     file.write("\n")
 
 file.close()
