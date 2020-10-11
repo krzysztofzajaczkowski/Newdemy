@@ -1,8 +1,8 @@
 import json
 
 class Course:
-    def __init__(self, title, description, author, rating, price):
-        self.imageSource= 'URL'
+    def __init__(self, title, description, author, rating, price, imageSource):
+        self.imageSource = imageSource
         self.title = title
         self.desciption = description
         self.author = author
@@ -47,7 +47,7 @@ class Course:
         return self.price
 
     def serializeObject(self):
-        s = '[COURSE INFO] ' + self.getTitle() + ' | ' + self.getAuthor() + ' | ' + self.getRating() + ' | ' + self.getPrice()
+        s = '[COURSE INFO] ' + self.getTitle() + ' | ' + self.getAuthor() + ' | ' + self.getRating() + ' | ' + self.getPrice() + ' | ' + self.getImageSource()
         return s
 
 
@@ -58,6 +58,7 @@ class Course:
         dataString['author'] = self.author
         dataString['rating'] = self.rating
         dataString['price'] = self.price
+        dataString['imageSource'] = self.imageSource
         jsonObject = json.dumps(dataString, ensure_ascii=False).encode('utf8')
         jsonObject = jsonObject.decode('utf8')
         return jsonObject
