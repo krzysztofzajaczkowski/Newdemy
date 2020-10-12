@@ -29,6 +29,9 @@ for x in f:
     URLs.append(x)
 f.close()
 
+# writing JSON objects as a string to the file
+file = open('objectsInJSON.txt','w')
+
 # searching through each page from file and through each subpage (< 1 2 3 ... 7 >)
 for URL in URLs:
     emptyPage = False # means that the page number is out of range and there is no more content on this page
@@ -79,19 +82,20 @@ for URL in URLs:
                     imageSourceURL = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.smarthome.com.au%2Faeotec-z-wave-plug-in-smart-switch-6.html&psig=AOvVaw33Vx1wP6a3B3QAn_6WPe4A&ust=1602514347326000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNitsanlrOwCFQAAAAAdAAAAABAE'
 
                 c = Course(title, desc, author, ratings, price, imageSourceURL, courseLength, courseLevel)
-                coursesObjectsList.append(c)
+                #coursesObjectsList.append(c)
+                file.write(c.makeJSON())
+                file.write("\n")
 
         except TimeoutException:
             print('[INFO] Ostatnia podstrona adresu URL')
             emptyPage = True
 driver.quit()
 
-# writing JSON objects as a string to the file
-file = open('objectsInJSON.txt','a')
+'''
 for course in coursesObjectsList:
-    str = course.makeJSON()
-    print(str)
-    file.write(str)
+    file.write(course.makeJSON())
     file.write("\n")
-
+'''
 file.close()
+
+#print("Liczba kursów: " + str(len(coursesObjectsList)))
