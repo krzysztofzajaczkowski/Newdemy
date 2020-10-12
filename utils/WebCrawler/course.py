@@ -6,7 +6,7 @@ class Course:
         self.title = title
         self.desciption = description
         self.author = author
-        self.rating = 'Ocena: ' + rating
+        self.rating = rating
         self.price = 'Darmowy'if price == 'Free' else price[2:] + ' zł'
         self.level = 'Wszystkie poziomy' if level == 'All Levels' \
                 else ('Początkujący' if level == 'Beginner' \
