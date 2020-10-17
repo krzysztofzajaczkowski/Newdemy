@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:47:17
+/* Smarty version 3.1.33, created on 2020-10-17 19:30:39
   from '/var/www/html/modules/appagebuilder/views/templates/hook/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f6850e4894_69564100',
+  'unifunc' => 'content_5f8b2a3f2a9854_86005607',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '26cd93e782a4c8314d6956e05fc8d5ea88462c6f' => 
     array (
       0 => '/var/www/html/modules/appagebuilder/views/templates/hook/header.tpl',
-      1 => 1602197270,
+      1 => 1602938916,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f80f6850e4894_69564100 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f8b2a3f2a9854_86005607 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- @file modules\appagebuilder\views\templates\hook\header -->
 
 <?php echo '<script'; ?>

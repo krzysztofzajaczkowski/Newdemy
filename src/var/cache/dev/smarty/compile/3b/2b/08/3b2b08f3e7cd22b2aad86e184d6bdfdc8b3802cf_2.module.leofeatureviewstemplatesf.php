@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:48:02
+/* Smarty version 3.1.33, created on 2020-10-17 19:30:53
   from 'module:leofeatureviewstemplatesf' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f6b2dd3754_42273680',
+  'unifunc' => 'content_5f8b2a4da908a9_72025063',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3b2b08f3e7cd22b2aad86e184d6bdfdc8b3802cf' => 
     array (
       0 => 'module:leofeatureviewstemplatesf',
-      1 => 1602197279,
+      1 => 1602938924,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f80f6b2dd3754_42273680 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f8b2a4da908a9_72025063 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/modules/leofeature/views/templates/front/modal.tpl --><div class="modal leo-modal leo-modal-cart fade" tabindex="-1" role="dialog" aria-hidden="true">
 	<!--
 	<div class="vertical-alignment-helper">

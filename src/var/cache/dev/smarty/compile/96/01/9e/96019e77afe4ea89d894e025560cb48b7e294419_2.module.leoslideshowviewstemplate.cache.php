@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:47:17
+/* Smarty version 3.1.33, created on 2020-10-17 19:30:39
   from 'module:leoslideshowviewstemplate' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f685d7afa8_27453804',
+  'unifunc' => 'content_5f8b2a3f72d028_87881192',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '96019e77afe4ea89d894e025560cb48b7e294419' => 
     array (
       0 => 'module:leoslideshowviewstemplate',
-      1 => 1602197281,
+      1 => 1602938925,
       2 => 'module',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f80f685d7afa8_27453804 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f8b2a3f72d028_87881192 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
-$_smarty_tpl->compiled->nocache_hash = '7831425775f80f685844da8_56509558';
+$_smarty_tpl->compiled->nocache_hash = '18830532825f8b2a3f543cd9_90951296';
 ?>
 <!-- begin /var/www/html/modules/leoslideshow/views/templates/front/leoslideshow.tpl -->
 <?php $_smarty_tpl->_assignInScope('class_group', "iview-group-".((string)$_smarty_tpl->tpl_vars['rand_num']->value)."-".((string)$_smarty_tpl->tpl_vars['sliderParams']->value['id_leoslideshow_groups']));

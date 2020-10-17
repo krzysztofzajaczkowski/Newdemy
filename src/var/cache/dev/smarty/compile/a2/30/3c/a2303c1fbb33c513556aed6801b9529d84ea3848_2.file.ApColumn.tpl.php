@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:47:19
+/* Smarty version 3.1.33, created on 2020-10-17 19:30:39
   from '/var/www/html/modules/appagebuilder/views/templates/hook/ApColumn.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f68740e885_54749655',
+  'unifunc' => 'content_5f8b2a3fc44fa6_38251614',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a2303c1fbb33c513556aed6801b9529d84ea3848' => 
     array (
       0 => '/var/www/html/modules/appagebuilder/views/templates/hook/ApColumn.tpl',
-      1 => 1602197269,
+      1 => 1602938916,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f80f68740e885_54749655 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f8b2a3fc44fa6_38251614 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- @file modules\appagebuilder\views\templates\hook\ApColumn -->
 <div<?php if (isset($_smarty_tpl->tpl_vars['formAtts']->value['id']) && $_smarty_tpl->tpl_vars['formAtts']->value['id']) {?> id="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['formAtts']->value['id'],'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
 "<?php }?>

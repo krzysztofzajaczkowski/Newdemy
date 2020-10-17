@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:53:25
+/* Smarty version 3.1.33, created on 2020-10-17 19:31:12
   from 'module:blockreassuranceviewstemp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f7f5757039_27474697',
+  'unifunc' => 'content_5f8b2a60226cb1_16502969',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9ffc009d1b66ea89054a8e253403b7d3a67d8150' => 
     array (
       0 => 'module:blockreassuranceviewstemp',
-      1 => 1602197331,
+      1 => 1602938947,
       2 => 'module',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f80f7f5757039_27474697 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '17951885205f80f7f57522b7_74758584';
+function content_5f8b2a60226cb1_16502969 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '3354973135f8b2a6021e898_39792902';
 ?>
 <!-- begin /var/www/html/themes/ap_office/modules/blockreassurance/views/templates/hook/blockreassurance.tpl --><?php if ($_smarty_tpl->tpl_vars['elements']->value) {?>
   <div id="block-reassurance">

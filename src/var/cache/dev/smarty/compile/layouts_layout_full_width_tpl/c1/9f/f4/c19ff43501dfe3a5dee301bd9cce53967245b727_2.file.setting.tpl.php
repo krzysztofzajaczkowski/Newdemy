@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:47:39
+/* Smarty version 3.1.33, created on 2020-10-17 19:30:45
   from '/var/www/html/themes/ap_office/templates/layouts/setting.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f69b7ebd16_07355216',
+  'unifunc' => 'content_5f8b2a4557fce9_55939762',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c19ff43501dfe3a5dee301bd9cce53967245b727' => 
     array (
       0 => '/var/www/html/themes/ap_office/templates/layouts/setting.tpl',
-      1 => 1602197333,
+      1 => 1602938949,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f80f69b7ebd16_07355216 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f8b2a4557fce9_55939762 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('ENABLE_RESPONSIVE', "1" ,false ,32);
 $_smarty_tpl->_assignInScope('LISTING_GRID_MODE', "grid" ,false ,32);
 $_smarty_tpl->_assignInScope('LISTING_PRODUCT_COLUMN_MODULE', "3" ,false ,32);

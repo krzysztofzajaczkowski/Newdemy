@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:47:23
+/* Smarty version 3.1.33, created on 2020-10-17 19:30:40
   from '/var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f68b74bba6_82181296',
+  'unifunc' => 'content_5f8b2a40b43af9_77613469',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '170060a7ba1075ffac2343d842f6da0ff3b9cc26' => 
     array (
       0 => '/var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl',
-      1 => 1602197331,
+      1 => 1602938947,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f80f68b74bba6_82181296 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f8b2a40b43af9_77613469 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="compare">
 	<a class="leo-compare-button btn-product btn<?php if ($_smarty_tpl->tpl_vars['added']->value) {?> added<?php }?>" href="#" data-id-product="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['leo_compare_id_product']->value, ENT_QUOTES, 'UTF-8');?>
 " title="<?php if ($_smarty_tpl->tpl_vars['added']->value) {

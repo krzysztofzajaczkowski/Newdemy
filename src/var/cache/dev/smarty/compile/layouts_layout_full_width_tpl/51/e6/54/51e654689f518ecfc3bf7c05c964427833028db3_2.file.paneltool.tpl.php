@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:47:53
+/* Smarty version 3.1.33, created on 2020-10-17 19:30:50
   from '/var/www/html/themes/ap_office/modules/appagebuilder/views/templates/front/info/paneltool.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f6a9bcf117_31816778',
+  'unifunc' => 'content_5f8b2a4a450f07_61250220',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '51e654689f518ecfc3bf7c05c964427833028db3' => 
     array (
       0 => '/var/www/html/themes/ap_office/modules/appagebuilder/views/templates/front/info/paneltool.tpl',
-      1 => 1602197331,
+      1 => 1602938947,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f80f6a9bcf117_31816778 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f8b2a4a450f07_61250220 (Smarty_Internal_Template $_smarty_tpl) {
 if (class_exists("LeoFrameworkHelper")) {
 $_smarty_tpl->_assignInScope('skins', LeoFrameworkHelper::getSkins($_smarty_tpl->tpl_vars['LEO_THEMENAME']->value));
 $_smarty_tpl->_assignInScope('header_styles', LeoFrameworkHelper::getPanelConfigByTheme('header',$_smarty_tpl->tpl_vars['LEO_THEMENAME']->value));

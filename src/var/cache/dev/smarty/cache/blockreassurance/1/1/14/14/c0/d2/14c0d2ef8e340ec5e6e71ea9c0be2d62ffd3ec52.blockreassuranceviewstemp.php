@@ -1,24 +1,24 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:53:25
+/* Smarty version 3.1.33, created on 2020-10-17 19:31:12
   from 'module:blockreassuranceviewstemp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f7f5954160_21617492',
+  'unifunc' => 'content_5f8b2a602ee645_08541290',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9ffc009d1b66ea89054a8e253403b7d3a67d8150' => 
     array (
       0 => 'module:blockreassuranceviewstemp',
-      1 => 1602197331,
+      1 => 1602938947,
       2 => 'module',
     ),
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_5f80f7f5954160_21617492 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f8b2a602ee645_08541290 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/themes/ap_office/modules/blockreassurance/views/templates/hook/blockreassurance.tpl -->  <div id="block-reassurance">
     <ul>
               <li>

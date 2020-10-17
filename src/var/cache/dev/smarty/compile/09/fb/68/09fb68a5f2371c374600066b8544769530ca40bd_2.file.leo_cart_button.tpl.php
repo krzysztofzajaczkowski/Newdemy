@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:47:24
+/* Smarty version 3.1.33, created on 2020-10-17 19:30:40
   from '/var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f68c432355_90181567',
+  'unifunc' => 'content_5f8b2a40ed0750_38652566',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '09fb68a5f2371c374600066b8544769530ca40bd' => 
     array (
       0 => '/var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl',
-      1 => 1602197331,
+      1 => 1602938947,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f80f68c432355_90181567 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f8b2a40ed0750_38652566 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="button-container cart">
 	<form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link_cart']->value, ENT_QUOTES, 'UTF-8');?>

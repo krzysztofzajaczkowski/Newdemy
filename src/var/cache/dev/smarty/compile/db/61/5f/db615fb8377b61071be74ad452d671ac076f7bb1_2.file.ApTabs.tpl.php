@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:47:30
+/* Smarty version 3.1.33, created on 2020-10-17 19:30:42
   from '/var/www/html/modules/appagebuilder/views/templates/hook/ApTabs.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f6924064e5_05569183',
+  'unifunc' => 'content_5f8b2a429cf3e7_64709092',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'db615fb8377b61071be74ad452d671ac076f7bb1' => 
     array (
       0 => '/var/www/html/modules/appagebuilder/views/templates/hook/ApTabs.tpl',
-      1 => 1602197270,
+      1 => 1602938916,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f80f6924064e5_05569183 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f8b2a429cf3e7_64709092 (Smarty_Internal_Template $_smarty_tpl) {
 ?> <!-- @file modules\appagebuilder\views\templates\hook\ApTabs -->
 <?php if ($_smarty_tpl->tpl_vars['tab_name']->value == 'ApTabs') {
 echo '<script'; ?>

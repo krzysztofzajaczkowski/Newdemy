@@ -1,24 +1,24 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:47:37
+/* Smarty version 3.1.33, created on 2020-10-17 19:30:44
   from 'module:appagebuilderviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f6994e8ab9_71225997',
+  'unifunc' => 'content_5f8b2a44bac5d2_73092749',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fcd50c9c59a2a4e1b1dc3bed4fc8dce8da33039f' => 
     array (
       0 => 'module:appagebuilderviewstemplat',
-      1 => 1602197270,
+      1 => 1602938916,
       2 => 'module',
     ),
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_5f80f6994e8ab9_71225997 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f8b2a44bac5d2_73092749 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/modules/appagebuilder/views/templates/hook/appagebuilder.tpl -->
 <!-- begin modules/appagebuilder/views/templates/hook/ApRow.tpl -->
 <!-- @file modules\appagebuilder\views\templates\hook\ApRow -->
@@ -37,7 +37,7 @@ function content_5f80f6994e8ab9_71225997 (Smarty_Internal_Template $_smarty_tpl)
 <!-- begin module:leoslideshow/views/templates/front/leoslideshow.tpl -->
 <!-- begin /var/www/html/modules/leoslideshow/views/templates/front/leoslideshow.tpl -->
 <div class="bannercontainer banner-fullwidth" style="padding: 0;margin: 0;">
-	<div class="iview iview-group-5f80f6857b149-1">
+	<div class="iview iview-group-5f8b2a3f530fd-1">
 														
 					<!-- SLIDE IMAGE BEGIN -->
 					<div class="slide_config "
@@ -262,7 +262,7 @@ function content_5f80f6994e8ab9_71225997 (Smarty_Internal_Template $_smarty_tpl)
 <script type="text/javascript">
         ap_list_functions.push(function(){
 
-	jQuery(".iview-group-5f80f6857b149-1").iView({
+	jQuery(".iview-group-5f8b2a3f530fd-1").iView({
 		// COMMON
 		pauseTime:9000, // delay
 		startSlide:0,
@@ -331,17 +331,17 @@ function content_5f80f6994e8ab9_71225997 (Smarty_Internal_Template $_smarty_tpl)
 		onAfterLoad: function() 
 		{
 			// THUMBNAIL
-								$('.iview-group-5f80f6857b149-1 .iview-controlNav a img').height(30);
-					//$('.iview-group-5f80f6857b149-1 .iview-tooltip').height(30);
-											$('.iview-group-5f80f6857b149-1 .iview-controlNav a img').width(30);
-					//$('.iview-group-5f80f6857b149-1 .iview-tooltip').width(30);
+								$('.iview-group-5f8b2a3f530fd-1 .iview-controlNav a img').height(30);
+					//$('.iview-group-5f8b2a3f530fd-1 .iview-tooltip').height(30);
+											$('.iview-group-5f8b2a3f530fd-1 .iview-controlNav a img').width(30);
+					//$('.iview-group-5f8b2a3f530fd-1 .iview-tooltip').width(30);
 			
 			// BULLET
-								$('.iview-group-5f80f6857b149-1 .iview-tooltip div.holder div.container div img').width(30);
-											$('.iview-group-5f80f6857b149-1 .iview-tooltip div.holder div.container div img').height(30);
+								$('.iview-group-5f8b2a3f530fd-1 .iview-tooltip div.holder div.container div img').width(30);
+											$('.iview-group-5f8b2a3f530fd-1 .iview-tooltip div.holder div.container div img').height(30);
 			
 			// Display timer
-								$('.iview-group-5f80f6857b149-1 .iview-timer').hide();
+								$('.iview-group-5f8b2a3f530fd-1 .iview-timer').hide();
 					},
 
 	});
@@ -356,7 +356,7 @@ function content_5f80f6994e8ab9_71225997 (Smarty_Internal_Template $_smarty_tpl)
 	var link_event = 'click';
 
 	// step 3
-	$(".iview-group-5f80f6857b149-1 .slide_config").on("click",function(){
+	$(".iview-group-5f8b2a3f530fd-1 .slide_config").on("click",function(){
 		
 		if(link_event !== 'click'){
 			link_event = 'click';
@@ -370,7 +370,7 @@ function content_5f80f6994e8ab9_71225997 (Smarty_Internal_Template $_smarty_tpl)
 	});
 
 	// step 2
-	$(".iview-group-5f80f6857b149-1 .slide_config").on('swipe',function(){
+	$(".iview-group-5f8b2a3f530fd-1 .slide_config").on('swipe',function(){
 		link_event = 'swiped';	// do not click event
 	});
 });
@@ -551,7 +551,7 @@ function content_5f80f6994e8ab9_71225997 (Smarty_Internal_Template $_smarty_tpl)
 					</div>
 							</div>
 			</div>
-    <div id="carousel-2008764488" class="owl-carousel owl-theme owl-loading profile-default">
+    <div id="carousel-2835644130" class="owl-carousel owl-theme owl-loading profile-default">
             	<div class="item first">
     		                                    <article class="product-miniature js-product-miniature" data-id-product="1" data-id-product-attribute="1" itemscope itemtype="http://schema.org/Product">
   <div class="thumbnail-container">
@@ -2121,16 +2121,16 @@ function content_5f80f6994e8ab9_71225997 (Smarty_Internal_Template $_smarty_tpl)
 </div>
 <script type="text/javascript">
 ap_list_functions.push(function(){
-    if($('#carousel-2008764488').parents('.tab-pane').length)
+    if($('#carousel-2835644130').parents('.tab-pane').length)
     {		
-        if(!$('#carousel-2008764488').parents('.tab-pane').hasClass('active'))
+        if(!$('#carousel-2835644130').parents('.tab-pane').hasClass('active'))
         {
-            var width_owl_active_tab = $('#carousel-2008764488').parents('.tab-pane').siblings('.active').find('.owl-carousel').width();		
-            $('#carousel-2008764488').width(width_owl_active_tab);
+            var width_owl_active_tab = $('#carousel-2835644130').parents('.tab-pane').siblings('.active').find('.owl-carousel').width();		
+            $('#carousel-2835644130').width(width_owl_active_tab);
         }
     }
-	$('#carousel-2008764488').imagesLoaded( function() {
-		$('#carousel-2008764488').owlCarousel({
+	$('#carousel-2835644130').imagesLoaded( function() {
+		$('#carousel-2835644130').owlCarousel({
 			items :             5,
 			itemsDesktop :      [1200,4],
 			itemsDesktopSmall : [992,3],
@@ -2252,10 +2252,10 @@ function OwlLoaded(el){
     ap_list_functions.push(function(){
                     
                     // ACTION SET ACTIVE
-            $('#tab_3677992541 .nav a:eq(0)').trigger('click');
+            $('#tab_2933829163 .nav a:eq(0)').trigger('click');
             });
 </script>
-<div id="tab_3677992541" class="ApTabs tabs-top">
+<div id="tab_2933829163" class="ApTabs tabs-top">
 
 	
                 
@@ -2353,7 +2353,7 @@ function OwlLoaded(el){
 					</div>
 							</div>
 			</div>
-    <div id="carousel-1794144253" class="owl-carousel owl-theme owl-loading profile-default">
+    <div id="carousel-3699898874" class="owl-carousel owl-theme owl-loading profile-default">
             	<div class="item first">
     		                                    <article class="product-miniature js-product-miniature" data-id-product="1" data-id-product-attribute="1" itemscope itemtype="http://schema.org/Product">
   <div class="thumbnail-container">
@@ -3933,16 +3933,16 @@ function OwlLoaded(el){
 </div>
 <script type="text/javascript">
 ap_list_functions.push(function(){
-    if($('#carousel-1794144253').parents('.tab-pane').length)
+    if($('#carousel-3699898874').parents('.tab-pane').length)
     {		
-        if(!$('#carousel-1794144253').parents('.tab-pane').hasClass('active'))
+        if(!$('#carousel-3699898874').parents('.tab-pane').hasClass('active'))
         {
-            var width_owl_active_tab = $('#carousel-1794144253').parents('.tab-pane').siblings('.active').find('.owl-carousel').width();		
-            $('#carousel-1794144253').width(width_owl_active_tab);
+            var width_owl_active_tab = $('#carousel-3699898874').parents('.tab-pane').siblings('.active').find('.owl-carousel').width();		
+            $('#carousel-3699898874').width(width_owl_active_tab);
         }
     }
-	$('#carousel-1794144253').imagesLoaded( function() {
-		$('#carousel-1794144253').owlCarousel({
+	$('#carousel-3699898874').imagesLoaded( function() {
+		$('#carousel-3699898874').owlCarousel({
 			items :             5,
 			itemsDesktop :      [1200,4],
 			itemsDesktopSmall : [992,3],
@@ -4063,7 +4063,7 @@ function OwlLoaded(el){
 					</div>
 							</div>
 			</div>
-    <div id="carousel-1731782655" class="owl-carousel owl-theme owl-loading profile-default">
+    <div id="carousel-2804062065" class="owl-carousel owl-theme owl-loading profile-default">
             	<div class="item first">
     		                                    <article class="product-miniature js-product-miniature" data-id-product="16" data-id-product-attribute="28" itemscope itemtype="http://schema.org/Product">
   <div class="thumbnail-container">
@@ -4212,326 +4212,6 @@ function OwlLoaded(el){
 
 <div class="view">
 	<a class="btn-product btn" href="http://localhost/stationery/16-28-mountain-fox-notebook.html#/22-paper_type-ruled">
-		<span>More</span>
-	</a>
-</div></div></div>
-  </div>
-</article>
-                    		    	</div>
-        	<div class="item">
-    		                                    <article class="product-miniature js-product-miniature" data-id-product="2" data-id-product-attribute="9" itemscope itemtype="http://schema.org/Product">
-  <div class="thumbnail-container">
-    <div class="product-image">
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-				<a href="http://localhost/women/2-9-brown-bear-printed-sweater.html#/1-rozmiar-s" class="thumbnail product-thumbnail">
-			<img
-				class="img-fluid"
-				src = "http://localhost/21-large_default/brown-bear-printed-sweater.jpg"
-				alt = "Brown bear printed sweater"
-				data-full-size-image-url = "http://localhost/21-large_default/brown-bear-printed-sweater.jpg"
-			> 
-							<span class="product-additional" data-idproduct="2"></span>
-					</a>
-	
-
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<ul class="product-flags">
-  	<li class="product-flag discount">-20%</li>
-  	<li class="product-flag new">Nowy</li>
-  </ul>
-
-<div class="functional-buttons clearfix">
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
-<div class="wishlist">
-	<a class="leo-wishlist-button btn-product btn" href="#" data-id-wishlist="" data-id-product="2" data-id-product-attribute="9" title="Add to Wishlist">
-		<span class="leo-wishlist-bt-loading cssload-speeding-wheel"></span>
-		<span class="leo-wishlist-bt-content">
-			<i class="fa fa-heart" aria-hidden="true"></i>
-		</span>
-	</a>
-</div>
-
-
-<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
-
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-<div class="quickview no-variants hidden-sm-down">
-<a
-  href="#"
-  class="quick-view btn-product btn"
-  data-link-action="quickview"
->
-	<span class="leo-quickview-bt-loading cssload-speeding-wheel"></span>
-	<span class="leo-quickview-bt-content">
-		<i class="fa fa-eye hidden-lg-up"></i>
-		<span class="hidden-md-down">Quick View</span>
-	</span>
-</a>
-</div>
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
-<div class="compare">
-	<a class="leo-compare-button btn-product btn" href="#" data-id-product="2" title="Add to Compare">
-	<span class="leo-compare-bt-loading cssload-speeding-wheel"></span>
-	<span class="leo-compare-bt-content">
-		<i class="fa fa-files-o" aria-hidden="true"></i>
-	</span>
-</a>
-</div>
-
-
-
-<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
-
-</div></div>
-    <div class="product-meta">
-<!-- @file modulesappagebuilderviewstemplatesfrontproductsfile_tpl -->
-        
-              <div class="product-price-and-shipping has_discount">
-              
-
-              
-
-              <span class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                <span itemprop="priceCurrency" content="PLN"></span><span itemprop="price" content="35.33">35,33 zł</span>
-              </span>
-                                
-
-                  <span class="regular-price">44,16 zł</span>
-                                      <span class="discount-percentage">-20%</span>
-                                                
-
-              
-            </div>
-                  
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-  <h3 class="h3 product-title" itemprop="name"><a href="http://localhost/women/2-9-brown-bear-printed-sweater.html#/1-rozmiar-s">Hummingbird printed sweater</a></h3>
-
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
-<!-- begin /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
-	<div class="leo-list-product-reviews" >
-		<div class="leo-list-product-reviews-wraper">
-			<div class="star_content clearfix">
-															<div class="star"></div>
-																				<div class="star"></div>
-																				<div class="star"></div>
-																				<div class="star"></div>
-																				<div class="star"></div>
-																</div>
-					</div>
-	</div>
-
-<!-- end /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
-<!-- end module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
-
-
-
-  <div class="product-description-short" itemprop="description"><p><span style="font-size:10pt;font-style:normal;">Regular fit, round neckline, long sleeves. 100% cotton, brushed inner side for extra comfort....</div>
-<div class="action">
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
-<div class="button-container cart">
-	<form action="http://localhost/koszyk" method="post">
-		<input type="hidden" name="token" value="06727bdc6ca393118ef17eaf645307b5">
-		<input type="hidden" value="1200" class="quantity_product quantity_product_2" name="quantity_product">
-		<input type="hidden" value="1" class="minimal_quantity minimal_quantity_2" name="minimal_quantity">
-		<input type="hidden" value="9" class="id_product_attribute id_product_attribute_2" name="id_product_attribute">
-		<input type="hidden" value="2" class="id_product" name="id_product">
-		<input type="hidden" name="id_customization" value="" class="product_customization_id">
-			
-		<input type="hidden" class="input-group form-control qty qty_product qty_product_2" name="qty" value="1" data-min="1">
-		  <button class="btn btn-primary btn-product add-to-cart leo-bt-cart leo-bt-cart_2" data-button-action="add-to-cart" type="submit">
-			<span class="leo-loading cssload-speeding-wheel"></span>
-			<span class="leo-bt-cart-content">
-				<i class="fa fa-shopping-cart"></i>
-				Add to Cart
-			</span>
-		</button>
-		
-	</form>
-</div>
-
-
-<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
-
-
-<div class="view">
-	<a class="btn-product btn" href="http://localhost/women/2-9-brown-bear-printed-sweater.html#/1-rozmiar-s">
-		<span>More</span>
-	</a>
-</div></div></div>
-  </div>
-</article>
-                    		    	</div>
-        	<div class="item">
-    		                                    <article class="product-miniature js-product-miniature" data-id-product="5" data-id-product-attribute="19" itemscope itemtype="http://schema.org/Product">
-  <div class="thumbnail-container">
-    <div class="product-image">
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-				<a href="http://localhost/art/5-19-today-is-a-good-day-framed-poster.html#/19-dimension-40x60cm" class="thumbnail product-thumbnail">
-			<img
-				class="img-fluid"
-				src = "http://localhost/5-large_default/today-is-a-good-day-framed-poster.jpg"
-				alt = "Today is a good day Framed poster"
-				data-full-size-image-url = "http://localhost/5-large_default/today-is-a-good-day-framed-poster.jpg"
-			> 
-							<span class="product-additional" data-idproduct="5"></span>
-					</a>
-	
-
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<ul class="product-flags">
-  	<li class="product-flag new">Nowy</li>
-  </ul>
-
-<div class="functional-buttons clearfix">
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
-<div class="wishlist">
-	<a class="leo-wishlist-button btn-product btn" href="#" data-id-wishlist="" data-id-product="5" data-id-product-attribute="19" title="Add to Wishlist">
-		<span class="leo-wishlist-bt-loading cssload-speeding-wheel"></span>
-		<span class="leo-wishlist-bt-content">
-			<i class="fa fa-heart" aria-hidden="true"></i>
-		</span>
-	</a>
-</div>
-
-
-<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
-
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-<div class="quickview no-variants hidden-sm-down">
-<a
-  href="#"
-  class="quick-view btn-product btn"
-  data-link-action="quickview"
->
-	<span class="leo-quickview-bt-loading cssload-speeding-wheel"></span>
-	<span class="leo-quickview-bt-content">
-		<i class="fa fa-eye hidden-lg-up"></i>
-		<span class="hidden-md-down">Quick View</span>
-	</span>
-</a>
-</div>
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
-<div class="compare">
-	<a class="leo-compare-button btn-product btn" href="#" data-id-product="5" title="Add to Compare">
-	<span class="leo-compare-bt-loading cssload-speeding-wheel"></span>
-	<span class="leo-compare-bt-content">
-		<i class="fa fa-files-o" aria-hidden="true"></i>
-	</span>
-</a>
-</div>
-
-
-
-<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
-
-</div></div>
-    <div class="product-meta">
-<!-- @file modulesappagebuilderviewstemplatesfrontproductsfile_tpl -->
-        
-              <div class="product-price-and-shipping ">
-              
-
-              
-<!-- begin modules/ps_legalcompliance/views/templates/hook/hookDisplayProductPriceBlock_before_price.tpl -->
-                <span class="aeuc_from_label">
-            Od
-        </span>
-    
-<!-- end modules/ps_legalcompliance/views/templates/hook/hookDisplayProductPriceBlock_before_price.tpl -->
-
-
-              <span class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                <span itemprop="priceCurrency" content="PLN"></span><span itemprop="price" content="35.67">35,67 zł</span>
-              </span>
-                            
-
-              
-            </div>
-                  
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-  <h3 class="h3 product-title" itemprop="name"><a href="http://localhost/art/5-19-today-is-a-good-day-framed-poster.html#/19-dimension-40x60cm">Today is a good day Framed poster</a></h3>
-
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
-<!-- begin /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
-	<div class="leo-list-product-reviews" >
-		<div class="leo-list-product-reviews-wraper">
-			<div class="star_content clearfix">
-															<div class="star"></div>
-																				<div class="star"></div>
-																				<div class="star"></div>
-																				<div class="star"></div>
-																				<div class="star"></div>
-																</div>
-					</div>
-	</div>
-
-<!-- end /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
-<!-- end module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
-
-
-
-  <div class="product-description-short" itemprop="description"><p><span style="font-size:10pt;font-weight:normal;font-style:normal;">Printed on rigid paper with matt finish and smooth surface.</span></p></div>
-<div class="action">
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
-<div class="button-container cart">
-	<form action="http://localhost/koszyk" method="post">
-		<input type="hidden" name="token" value="06727bdc6ca393118ef17eaf645307b5">
-		<input type="hidden" value="300" class="quantity_product quantity_product_5" name="quantity_product">
-		<input type="hidden" value="1" class="minimal_quantity minimal_quantity_5" name="minimal_quantity">
-		<input type="hidden" value="19" class="id_product_attribute id_product_attribute_5" name="id_product_attribute">
-		<input type="hidden" value="5" class="id_product" name="id_product">
-		<input type="hidden" name="id_customization" value="" class="product_customization_id">
-			
-		<input type="hidden" class="input-group form-control qty qty_product qty_product_5" name="qty" value="1" data-min="1">
-		  <button class="btn btn-primary btn-product add-to-cart leo-bt-cart leo-bt-cart_5" data-button-action="add-to-cart" type="submit">
-			<span class="leo-loading cssload-speeding-wheel"></span>
-			<span class="leo-bt-cart-content">
-				<i class="fa fa-shopping-cart"></i>
-				Add to Cart
-			</span>
-		</button>
-		
-	</form>
-</div>
-
-
-<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
-
-
-<div class="view">
-	<a class="btn-product btn" href="http://localhost/art/5-19-today-is-a-good-day-framed-poster.html#/19-dimension-40x60cm">
 		<span>More</span>
 	</a>
 </div></div></div>
@@ -4693,19 +4373,19 @@ function OwlLoaded(el){
 </article>
                     		    	</div>
         	<div class="item">
-    		                                    <article class="product-miniature js-product-miniature" data-id-product="1" data-id-product-attribute="1" itemscope itemtype="http://schema.org/Product">
+    		                                    <article class="product-miniature js-product-miniature" data-id-product="19" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
   <div class="thumbnail-container">
     <div class="product-image">
 <!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
 
-				<a href="http://localhost/men/1-1-hummingbird-printed-t-shirt.html#/1-rozmiar-s/8-kolor-bialy" class="thumbnail product-thumbnail">
+				<a href="http://localhost/home-accessories/19-customizable-mug.html" class="thumbnail product-thumbnail">
 			<img
 				class="img-fluid"
-				src = "http://localhost/2-large_default/hummingbird-printed-t-shirt.jpg"
-				alt = "Hummingbird printed t-shirt"
-				data-full-size-image-url = "http://localhost/2-large_default/hummingbird-printed-t-shirt.jpg"
+				src = "http://localhost/22-large_default/customizable-mug.jpg"
+				alt = "Customizable mug"
+				data-full-size-image-url = "http://localhost/22-large_default/customizable-mug.jpg"
 			> 
-							<span class="product-additional" data-idproduct="1"></span>
+							<span class="product-additional" data-idproduct="19"></span>
 					</a>
 	
 
@@ -4713,7 +4393,6 @@ function OwlLoaded(el){
 <!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
 
 <ul class="product-flags">
-  	<li class="product-flag discount">-20%</li>
   	<li class="product-flag new">Nowy</li>
   </ul>
 
@@ -4722,7 +4401,7 @@ function OwlLoaded(el){
 
 <!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
 <div class="wishlist">
-	<a class="leo-wishlist-button btn-product btn" href="#" data-id-wishlist="" data-id-product="1" data-id-product-attribute="1" title="Add to Wishlist">
+	<a class="leo-wishlist-button btn-product btn" href="#" data-id-wishlist="" data-id-product="19" data-id-product-attribute="0" title="Add to Wishlist">
 		<span class="leo-wishlist-bt-loading cssload-speeding-wheel"></span>
 		<span class="leo-wishlist-bt-content">
 			<i class="fa fa-heart" aria-hidden="true"></i>
@@ -4735,7 +4414,7 @@ function OwlLoaded(el){
 
 
 <!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-<div class="quickview hidden-sm-down">
+<div class="quickview no-variants hidden-sm-down">
 <a
   href="#"
   class="quick-view btn-product btn"
@@ -4753,169 +4432,7 @@ function OwlLoaded(el){
 
 <!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
 <div class="compare">
-	<a class="leo-compare-button btn-product btn" href="#" data-id-product="1" title="Add to Compare">
-	<span class="leo-compare-bt-loading cssload-speeding-wheel"></span>
-	<span class="leo-compare-bt-content">
-		<i class="fa fa-files-o" aria-hidden="true"></i>
-	</span>
-</a>
-</div>
-
-
-
-<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
-
-</div></div>
-    <div class="product-meta">
-<!-- @file modulesappagebuilderviewstemplatesfrontproductsfile_tpl -->
-        
-              <div class="product-price-and-shipping has_discount">
-              
-
-              
-
-              <span class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                <span itemprop="priceCurrency" content="PLN"></span><span itemprop="price" content="23.52">23,52 zł</span>
-              </span>
-                                
-
-                  <span class="regular-price">29,40 zł</span>
-                                      <span class="discount-percentage">-20%</span>
-                                                
-
-              
-            </div>
-                  
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-  <h3 class="h3 product-title" itemprop="name"><a href="http://localhost/men/1-1-hummingbird-printed-t-shirt.html#/1-rozmiar-s/8-kolor-bialy">Hummingbird printed t-shirt</a></h3>
-
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
-<!-- begin /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
-	<div class="leo-list-product-reviews" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-		<div class="leo-list-product-reviews-wraper">
-			<div class="star_content clearfix">
-															<div class="star star_on"></div>
-																				<div class="star star_on"></div>
-																				<div class="star star_on"></div>
-																				<div class="star star_on"></div>
-																				<div class="star"></div>
-																		<meta itemprop="worstRating" content = "0" />
-					<meta itemprop="ratingValue" content = "4" />
-					<meta itemprop="bestRating" content = "5" />
-							</div>
-												<meta itemprop="reviewCount" content = "1" />
-									</div>
-	</div>
-
-<!-- end /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
-<!-- end module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
-
-
-
-  <div class="product-description-short" itemprop="description"><p><span style="font-size:10pt;font-style:normal;">Regular fit, round neckline, short sleeves. Made of extra long staple pima cotton. </span></p>...</div>
-<div class="action">
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
-<div class="button-container cart">
-	<form action="http://localhost/koszyk" method="post">
-		<input type="hidden" name="token" value="06727bdc6ca393118ef17eaf645307b5">
-		<input type="hidden" value="300" class="quantity_product quantity_product_1" name="quantity_product">
-		<input type="hidden" value="1" class="minimal_quantity minimal_quantity_1" name="minimal_quantity">
-		<input type="hidden" value="1" class="id_product_attribute id_product_attribute_1" name="id_product_attribute">
-		<input type="hidden" value="1" class="id_product" name="id_product">
-		<input type="hidden" name="id_customization" value="" class="product_customization_id">
-			
-		<input type="hidden" class="input-group form-control qty qty_product qty_product_1" name="qty" value="1" data-min="1">
-		  <button class="btn btn-primary btn-product add-to-cart leo-bt-cart leo-bt-cart_1" data-button-action="add-to-cart" type="submit">
-			<span class="leo-loading cssload-speeding-wheel"></span>
-			<span class="leo-bt-cart-content">
-				<i class="fa fa-shopping-cart"></i>
-				Add to Cart
-			</span>
-		</button>
-		
-	</form>
-</div>
-
-
-<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
-
-
-<div class="view">
-	<a class="btn-product btn" href="http://localhost/men/1-1-hummingbird-printed-t-shirt.html#/1-rozmiar-s/8-kolor-bialy">
-		<span>More</span>
-	</a>
-</div></div></div>
-  </div>
-</article>
-                    		    	</div>
-        	<div class="item">
-    		                                    <article class="product-miniature js-product-miniature" data-id-product="11" data-id-product-attribute="26" itemscope itemtype="http://schema.org/Product">
-  <div class="thumbnail-container">
-    <div class="product-image">
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-				<a href="http://localhost/home-accessories/11-26-hummingbird-cushion.html#/8-kolor-bialy" class="thumbnail product-thumbnail">
-			<img
-				class="img-fluid"
-				src = "http://localhost/14-large_default/hummingbird-cushion.jpg"
-				alt = "Hummingbird cushion"
-				data-full-size-image-url = "http://localhost/14-large_default/hummingbird-cushion.jpg"
-			> 
-							<span class="product-additional" data-idproduct="11"></span>
-					</a>
-	
-
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<ul class="product-flags">
-  	<li class="product-flag new">Nowy</li>
-  </ul>
-
-<div class="functional-buttons clearfix">
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
-<div class="wishlist">
-	<a class="leo-wishlist-button btn-product btn" href="#" data-id-wishlist="" data-id-product="11" data-id-product-attribute="26" title="Add to Wishlist">
-		<span class="leo-wishlist-bt-loading cssload-speeding-wheel"></span>
-		<span class="leo-wishlist-bt-content">
-			<i class="fa fa-heart" aria-hidden="true"></i>
-		</span>
-	</a>
-</div>
-
-
-<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
-
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-<div class="quickview hidden-sm-down">
-<a
-  href="#"
-  class="quick-view btn-product btn"
-  data-link-action="quickview"
->
-	<span class="leo-quickview-bt-loading cssload-speeding-wheel"></span>
-	<span class="leo-quickview-bt-content">
-		<i class="fa fa-eye hidden-lg-up"></i>
-		<span class="hidden-md-down">Quick View</span>
-	</span>
-</a>
-</div>
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
-<div class="compare">
-	<a class="leo-compare-button btn-product btn" href="#" data-id-product="11" title="Add to Compare">
+	<a class="leo-compare-button btn-product btn" href="#" data-id-product="19" title="Add to Compare">
 	<span class="leo-compare-bt-loading cssload-speeding-wheel"></span>
 	<span class="leo-compare-bt-content">
 		<i class="fa fa-files-o" aria-hidden="true"></i>
@@ -4937,7 +4454,7 @@ function OwlLoaded(el){
               
 
               <span class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                <span itemprop="priceCurrency" content="PLN"></span><span itemprop="price" content="23.25">23,25 zł</span>
+                <span itemprop="priceCurrency" content="PLN"></span><span itemprop="price" content="17.1">17,10 zł</span>
               </span>
                             
 
@@ -4947,7 +4464,7 @@ function OwlLoaded(el){
 
 <!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
 
-  <h3 class="h3 product-title" itemprop="name"><a href="http://localhost/home-accessories/11-26-hummingbird-cushion.html#/8-kolor-bialy">Hummingbird cushion</a></h3>
+  <h3 class="h3 product-title" itemprop="name"><a href="http://localhost/home-accessories/19-customizable-mug.html">Customizable mug</a></h3>
 
 
 <!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
@@ -4971,7 +4488,7 @@ function OwlLoaded(el){
 
 
 
-  <div class="product-description-short" itemprop="description"><p><span style="font-size:10pt;font-style:normal;">Cushion with removable cover and invisible zip on the back. 32x32cm</span></p></div>
+  <div class="product-description-short" itemprop="description"><p><span style="font-size:10pt;font-style:normal;">White Ceramic Mug. 325ml</span></p></div>
 <div class="action">
 <!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
 
@@ -4979,14 +4496,14 @@ function OwlLoaded(el){
 <div class="button-container cart">
 	<form action="http://localhost/koszyk" method="post">
 		<input type="hidden" name="token" value="06727bdc6ca393118ef17eaf645307b5">
-		<input type="hidden" value="300" class="quantity_product quantity_product_11" name="quantity_product">
-		<input type="hidden" value="1" class="minimal_quantity minimal_quantity_11" name="minimal_quantity">
-		<input type="hidden" value="26" class="id_product_attribute id_product_attribute_11" name="id_product_attribute">
-		<input type="hidden" value="11" class="id_product" name="id_product">
+		<input type="hidden" value="300" class="quantity_product quantity_product_19" name="quantity_product">
+		<input type="hidden" value="1" class="minimal_quantity minimal_quantity_19" name="minimal_quantity">
+		<input type="hidden" value="0" class="id_product_attribute id_product_attribute_19" name="id_product_attribute">
+		<input type="hidden" value="19" class="id_product" name="id_product">
 		<input type="hidden" name="id_customization" value="" class="product_customization_id">
 			
-		<input type="hidden" class="input-group form-control qty qty_product qty_product_11" name="qty" value="1" data-min="1">
-		  <button class="btn btn-primary btn-product add-to-cart leo-bt-cart leo-bt-cart_11" data-button-action="add-to-cart" type="submit">
+		<input type="hidden" class="input-group form-control qty qty_product qty_product_19" name="qty" value="1" data-min="1">
+		  <button class="btn btn-primary btn-product add-to-cart leo-bt-cart leo-bt-cart_19 disabled" data-button-action="add-to-cart" type="submit">
 			<span class="leo-loading cssload-speeding-wheel"></span>
 			<span class="leo-bt-cart-content">
 				<i class="fa fa-shopping-cart"></i>
@@ -5002,7 +4519,161 @@ function OwlLoaded(el){
 
 
 <div class="view">
-	<a class="btn-product btn" href="http://localhost/home-accessories/11-26-hummingbird-cushion.html#/8-kolor-bialy">
+	<a class="btn-product btn" href="http://localhost/home-accessories/19-customizable-mug.html">
+		<span>More</span>
+	</a>
+</div></div></div>
+  </div>
+</article>
+                    		    	</div>
+        	<div class="item">
+    		                                    <article class="product-miniature js-product-miniature" data-id-product="14" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
+  <div class="thumbnail-container">
+    <div class="product-image">
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+				<a href="http://localhost/art/14-hummingbird-vector-graphics.html" class="thumbnail product-thumbnail">
+			<img
+				class="img-fluid"
+				src = "http://localhost/17-large_default/hummingbird-vector-graphics.jpg"
+				alt = "Hummingbird - Vector graphics"
+				data-full-size-image-url = "http://localhost/17-large_default/hummingbird-vector-graphics.jpg"
+			> 
+							<span class="product-additional" data-idproduct="14"></span>
+					</a>
+	
+
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<ul class="product-flags">
+  	<li class="product-flag new">Nowy</li>
+  </ul>
+
+<div class="functional-buttons clearfix">
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
+<div class="wishlist">
+	<a class="leo-wishlist-button btn-product btn" href="#" data-id-wishlist="" data-id-product="14" data-id-product-attribute="0" title="Add to Wishlist">
+		<span class="leo-wishlist-bt-loading cssload-speeding-wheel"></span>
+		<span class="leo-wishlist-bt-content">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+		</span>
+	</a>
+</div>
+
+
+<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
+
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+<div class="quickview no-variants hidden-sm-down">
+<a
+  href="#"
+  class="quick-view btn-product btn"
+  data-link-action="quickview"
+>
+	<span class="leo-quickview-bt-loading cssload-speeding-wheel"></span>
+	<span class="leo-quickview-bt-content">
+		<i class="fa fa-eye hidden-lg-up"></i>
+		<span class="hidden-md-down">Quick View</span>
+	</span>
+</a>
+</div>
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
+<div class="compare">
+	<a class="leo-compare-button btn-product btn" href="#" data-id-product="14" title="Add to Compare">
+	<span class="leo-compare-bt-loading cssload-speeding-wheel"></span>
+	<span class="leo-compare-bt-content">
+		<i class="fa fa-files-o" aria-hidden="true"></i>
+	</span>
+</a>
+</div>
+
+
+
+<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
+
+</div></div>
+    <div class="product-meta">
+<!-- @file modulesappagebuilderviewstemplatesfrontproductsfile_tpl -->
+        
+              <div class="product-price-and-shipping ">
+              
+
+              
+
+              <span class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <span itemprop="priceCurrency" content="PLN"></span><span itemprop="price" content="11.07">11,07 zł</span>
+              </span>
+                            
+
+              
+            </div>
+                  
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+  <h3 class="h3 product-title" itemprop="name"><a href="http://localhost/art/14-hummingbird-vector-graphics.html">Hummingbird - Vector graphics</a></h3>
+
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
+<!-- begin /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
+	<div class="leo-list-product-reviews" >
+		<div class="leo-list-product-reviews-wraper">
+			<div class="star_content clearfix">
+															<div class="star"></div>
+																				<div class="star"></div>
+																				<div class="star"></div>
+																				<div class="star"></div>
+																				<div class="star"></div>
+																</div>
+					</div>
+	</div>
+
+<!-- end /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
+<!-- end module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
+
+
+
+  <div class="product-description-short" itemprop="description"><p><span style="font-size:10pt;font-style:normal;">Vector graphic, format: svg. Download for personal, private and non-commercial use.</span></p></div>
+<div class="action">
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
+<div class="button-container cart">
+	<form action="http://localhost/koszyk" method="post">
+		<input type="hidden" name="token" value="06727bdc6ca393118ef17eaf645307b5">
+		<input type="hidden" value="300" class="quantity_product quantity_product_14" name="quantity_product">
+		<input type="hidden" value="1" class="minimal_quantity minimal_quantity_14" name="minimal_quantity">
+		<input type="hidden" value="0" class="id_product_attribute id_product_attribute_14" name="id_product_attribute">
+		<input type="hidden" value="14" class="id_product" name="id_product">
+		<input type="hidden" name="id_customization" value="" class="product_customization_id">
+			
+		<input type="hidden" class="input-group form-control qty qty_product qty_product_14" name="qty" value="1" data-min="1">
+		  <button class="btn btn-primary btn-product add-to-cart leo-bt-cart leo-bt-cart_14" data-button-action="add-to-cart" type="submit">
+			<span class="leo-loading cssload-speeding-wheel"></span>
+			<span class="leo-bt-cart-content">
+				<i class="fa fa-shopping-cart"></i>
+				Add to Cart
+			</span>
+		</button>
+		
+	</form>
+</div>
+
+
+<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
+
+
+<div class="view">
+	<a class="btn-product btn" href="http://localhost/art/14-hummingbird-vector-graphics.html">
 		<span>More</span>
 	</a>
 </div></div></div>
@@ -5157,6 +4828,469 @@ function OwlLoaded(el){
 
 <div class="view">
 	<a class="btn-product btn" href="http://localhost/art/12-mountain-fox-vector-graphics.html">
+		<span>More</span>
+	</a>
+</div></div></div>
+  </div>
+</article>
+                    		    	</div>
+        	<div class="item">
+    		                                    <article class="product-miniature js-product-miniature" data-id-product="8" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
+  <div class="thumbnail-container">
+    <div class="product-image">
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+				<a href="http://localhost/home-accessories/8-mug-today-is-a-good-day.html" class="thumbnail product-thumbnail">
+			<img
+				class="img-fluid"
+				src = "http://localhost/8-large_default/mug-today-is-a-good-day.jpg"
+				alt = "Mug Today is a good day"
+				data-full-size-image-url = "http://localhost/8-large_default/mug-today-is-a-good-day.jpg"
+			> 
+							<span class="product-additional" data-idproduct="8"></span>
+					</a>
+	
+
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<ul class="product-flags">
+  	<li class="product-flag new">Nowy</li>
+  </ul>
+
+<div class="functional-buttons clearfix">
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
+<div class="wishlist">
+	<a class="leo-wishlist-button btn-product btn" href="#" data-id-wishlist="" data-id-product="8" data-id-product-attribute="0" title="Add to Wishlist">
+		<span class="leo-wishlist-bt-loading cssload-speeding-wheel"></span>
+		<span class="leo-wishlist-bt-content">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+		</span>
+	</a>
+</div>
+
+
+<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
+
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+<div class="quickview no-variants hidden-sm-down">
+<a
+  href="#"
+  class="quick-view btn-product btn"
+  data-link-action="quickview"
+>
+	<span class="leo-quickview-bt-loading cssload-speeding-wheel"></span>
+	<span class="leo-quickview-bt-content">
+		<i class="fa fa-eye hidden-lg-up"></i>
+		<span class="hidden-md-down">Quick View</span>
+	</span>
+</a>
+</div>
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
+<div class="compare">
+	<a class="leo-compare-button btn-product btn" href="#" data-id-product="8" title="Add to Compare">
+	<span class="leo-compare-bt-loading cssload-speeding-wheel"></span>
+	<span class="leo-compare-bt-content">
+		<i class="fa fa-files-o" aria-hidden="true"></i>
+	</span>
+</a>
+</div>
+
+
+
+<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
+
+</div></div>
+    <div class="product-meta">
+<!-- @file modulesappagebuilderviewstemplatesfrontproductsfile_tpl -->
+        
+              <div class="product-price-and-shipping ">
+              
+
+              
+
+              <span class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <span itemprop="priceCurrency" content="PLN"></span><span itemprop="price" content="14.64">14,64 zł</span>
+              </span>
+                            
+
+              
+            </div>
+                  
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+  <h3 class="h3 product-title" itemprop="name"><a href="http://localhost/home-accessories/8-mug-today-is-a-good-day.html">Mug Today is a good day</a></h3>
+
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
+<!-- begin /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
+	<div class="leo-list-product-reviews" >
+		<div class="leo-list-product-reviews-wraper">
+			<div class="star_content clearfix">
+															<div class="star"></div>
+																				<div class="star"></div>
+																				<div class="star"></div>
+																				<div class="star"></div>
+																				<div class="star"></div>
+																</div>
+					</div>
+	</div>
+
+<!-- end /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
+<!-- end module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
+
+
+
+  <div class="product-description-short" itemprop="description"><p><span style="font-size:10pt;font-style:normal;">White Ceramic Mug. 325ml</span></p></div>
+<div class="action">
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
+<div class="button-container cart">
+	<form action="http://localhost/koszyk" method="post">
+		<input type="hidden" name="token" value="06727bdc6ca393118ef17eaf645307b5">
+		<input type="hidden" value="300" class="quantity_product quantity_product_8" name="quantity_product">
+		<input type="hidden" value="1" class="minimal_quantity minimal_quantity_8" name="minimal_quantity">
+		<input type="hidden" value="0" class="id_product_attribute id_product_attribute_8" name="id_product_attribute">
+		<input type="hidden" value="8" class="id_product" name="id_product">
+		<input type="hidden" name="id_customization" value="" class="product_customization_id">
+			
+		<input type="hidden" class="input-group form-control qty qty_product qty_product_8" name="qty" value="1" data-min="1">
+		  <button class="btn btn-primary btn-product add-to-cart leo-bt-cart leo-bt-cart_8" data-button-action="add-to-cart" type="submit">
+			<span class="leo-loading cssload-speeding-wheel"></span>
+			<span class="leo-bt-cart-content">
+				<i class="fa fa-shopping-cart"></i>
+				Add to Cart
+			</span>
+		</button>
+		
+	</form>
+</div>
+
+
+<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
+
+
+<div class="view">
+	<a class="btn-product btn" href="http://localhost/home-accessories/8-mug-today-is-a-good-day.html">
+		<span>More</span>
+	</a>
+</div></div></div>
+  </div>
+</article>
+                    		    	</div>
+        	<div class="item">
+    		                                    <article class="product-miniature js-product-miniature" data-id-product="13" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
+  <div class="thumbnail-container">
+    <div class="product-image">
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+				<a href="http://localhost/art/13-brown-bear-vector-graphics.html" class="thumbnail product-thumbnail">
+			<img
+				class="img-fluid"
+				src = "http://localhost/16-large_default/brown-bear-vector-graphics.jpg"
+				alt = "Brown bear - Vector graphics"
+				data-full-size-image-url = "http://localhost/16-large_default/brown-bear-vector-graphics.jpg"
+			> 
+							<span class="product-additional" data-idproduct="13"></span>
+					</a>
+	
+
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<ul class="product-flags">
+  	<li class="product-flag new">Nowy</li>
+  </ul>
+
+<div class="functional-buttons clearfix">
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
+<div class="wishlist">
+	<a class="leo-wishlist-button btn-product btn" href="#" data-id-wishlist="" data-id-product="13" data-id-product-attribute="0" title="Add to Wishlist">
+		<span class="leo-wishlist-bt-loading cssload-speeding-wheel"></span>
+		<span class="leo-wishlist-bt-content">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+		</span>
+	</a>
+</div>
+
+
+<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
+
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+<div class="quickview no-variants hidden-sm-down">
+<a
+  href="#"
+  class="quick-view btn-product btn"
+  data-link-action="quickview"
+>
+	<span class="leo-quickview-bt-loading cssload-speeding-wheel"></span>
+	<span class="leo-quickview-bt-content">
+		<i class="fa fa-eye hidden-lg-up"></i>
+		<span class="hidden-md-down">Quick View</span>
+	</span>
+</a>
+</div>
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
+<div class="compare">
+	<a class="leo-compare-button btn-product btn" href="#" data-id-product="13" title="Add to Compare">
+	<span class="leo-compare-bt-loading cssload-speeding-wheel"></span>
+	<span class="leo-compare-bt-content">
+		<i class="fa fa-files-o" aria-hidden="true"></i>
+	</span>
+</a>
+</div>
+
+
+
+<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
+
+</div></div>
+    <div class="product-meta">
+<!-- @file modulesappagebuilderviewstemplatesfrontproductsfile_tpl -->
+        
+              <div class="product-price-and-shipping ">
+              
+
+              
+
+              <span class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <span itemprop="priceCurrency" content="PLN"></span><span itemprop="price" content="11.07">11,07 zł</span>
+              </span>
+                            
+
+              
+            </div>
+                  
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+  <h3 class="h3 product-title" itemprop="name"><a href="http://localhost/art/13-brown-bear-vector-graphics.html">Brown bear - Vector graphics</a></h3>
+
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
+<!-- begin /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
+	<div class="leo-list-product-reviews" >
+		<div class="leo-list-product-reviews-wraper">
+			<div class="star_content clearfix">
+															<div class="star"></div>
+																				<div class="star"></div>
+																				<div class="star"></div>
+																				<div class="star"></div>
+																				<div class="star"></div>
+																</div>
+					</div>
+	</div>
+
+<!-- end /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
+<!-- end module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
+
+
+
+  <div class="product-description-short" itemprop="description"><p><span style="font-size:10pt;font-style:normal;">Vector graphic, format: svg. Download for personal, private and non-commercial use.</span></p></div>
+<div class="action">
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
+<div class="button-container cart">
+	<form action="http://localhost/koszyk" method="post">
+		<input type="hidden" name="token" value="06727bdc6ca393118ef17eaf645307b5">
+		<input type="hidden" value="300" class="quantity_product quantity_product_13" name="quantity_product">
+		<input type="hidden" value="1" class="minimal_quantity minimal_quantity_13" name="minimal_quantity">
+		<input type="hidden" value="0" class="id_product_attribute id_product_attribute_13" name="id_product_attribute">
+		<input type="hidden" value="13" class="id_product" name="id_product">
+		<input type="hidden" name="id_customization" value="" class="product_customization_id">
+			
+		<input type="hidden" class="input-group form-control qty qty_product qty_product_13" name="qty" value="1" data-min="1">
+		  <button class="btn btn-primary btn-product add-to-cart leo-bt-cart leo-bt-cart_13" data-button-action="add-to-cart" type="submit">
+			<span class="leo-loading cssload-speeding-wheel"></span>
+			<span class="leo-bt-cart-content">
+				<i class="fa fa-shopping-cart"></i>
+				Add to Cart
+			</span>
+		</button>
+		
+	</form>
+</div>
+
+
+<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
+
+
+<div class="view">
+	<a class="btn-product btn" href="http://localhost/art/13-brown-bear-vector-graphics.html">
+		<span>More</span>
+	</a>
+</div></div></div>
+  </div>
+</article>
+                    		    	</div>
+        	<div class="item">
+    		                                    <article class="product-miniature js-product-miniature" data-id-product="15" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
+  <div class="thumbnail-container">
+    <div class="product-image">
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+				<a href="http://localhost/home-accessories/15-pack-mug-framed-poster.html" class="thumbnail product-thumbnail">
+			<img
+				class="img-fluid"
+				src = "http://localhost/23-large_default/pack-mug-framed-poster.jpg"
+				alt = "Pack Mug + Framed poster"
+				data-full-size-image-url = "http://localhost/23-large_default/pack-mug-framed-poster.jpg"
+			> 
+							<span class="product-additional" data-idproduct="15"></span>
+					</a>
+	
+
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<ul class="product-flags">
+  	<li class="product-flag new">Nowy</li>
+  	<li class="product-flag pack">Pakiet</li>
+  </ul>
+
+<div class="functional-buttons clearfix">
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
+<div class="wishlist">
+	<a class="leo-wishlist-button btn-product btn" href="#" data-id-wishlist="" data-id-product="15" data-id-product-attribute="0" title="Add to Wishlist">
+		<span class="leo-wishlist-bt-loading cssload-speeding-wheel"></span>
+		<span class="leo-wishlist-bt-content">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+		</span>
+	</a>
+</div>
+
+
+<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
+
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+<div class="quickview no-variants hidden-sm-down">
+<a
+  href="#"
+  class="quick-view btn-product btn"
+  data-link-action="quickview"
+>
+	<span class="leo-quickview-bt-loading cssload-speeding-wheel"></span>
+	<span class="leo-quickview-bt-content">
+		<i class="fa fa-eye hidden-lg-up"></i>
+		<span class="hidden-md-down">Quick View</span>
+	</span>
+</a>
+</div>
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
+<div class="compare">
+	<a class="leo-compare-button btn-product btn" href="#" data-id-product="15" title="Add to Compare">
+	<span class="leo-compare-bt-loading cssload-speeding-wheel"></span>
+	<span class="leo-compare-bt-content">
+		<i class="fa fa-files-o" aria-hidden="true"></i>
+	</span>
+</a>
+</div>
+
+
+
+<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
+
+</div></div>
+    <div class="product-meta">
+<!-- @file modulesappagebuilderviewstemplatesfrontproductsfile_tpl -->
+        
+              <div class="product-price-and-shipping ">
+              
+
+              
+
+              <span class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <span itemprop="priceCurrency" content="PLN"></span><span itemprop="price" content="43.05">43,05 zł</span>
+              </span>
+                            
+
+              
+            </div>
+                  
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+  <h3 class="h3 product-title" itemprop="name"><a href="http://localhost/home-accessories/15-pack-mug-framed-poster.html">Pack Mug + Framed poster</a></h3>
+
+
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
+<!-- begin /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
+	<div class="leo-list-product-reviews" >
+		<div class="leo-list-product-reviews-wraper">
+			<div class="star_content clearfix">
+															<div class="star"></div>
+																				<div class="star"></div>
+																				<div class="star"></div>
+																				<div class="star"></div>
+																				<div class="star"></div>
+																</div>
+					</div>
+	</div>
+
+<!-- end /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
+<!-- end module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
+
+
+
+  <div class="product-description-short" itemprop="description"><p><span style="font-size:10pt;font-style:normal;">Mug The Adventure Begins + Framed poster Today is a good day 40x60cm </span></p></div>
+<div class="action">
+<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
+
+<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
+<div class="button-container cart">
+	<form action="http://localhost/koszyk" method="post">
+		<input type="hidden" name="token" value="06727bdc6ca393118ef17eaf645307b5">
+		<input type="hidden" value="100" class="quantity_product quantity_product_15" name="quantity_product">
+		<input type="hidden" value="1" class="minimal_quantity minimal_quantity_15" name="minimal_quantity">
+		<input type="hidden" value="0" class="id_product_attribute id_product_attribute_15" name="id_product_attribute">
+		<input type="hidden" value="15" class="id_product" name="id_product">
+		<input type="hidden" name="id_customization" value="" class="product_customization_id">
+			
+		<input type="hidden" class="input-group form-control qty qty_product qty_product_15" name="qty" value="1" data-min="1">
+		  <button class="btn btn-primary btn-product add-to-cart leo-bt-cart leo-bt-cart_15" data-button-action="add-to-cart" type="submit">
+			<span class="leo-loading cssload-speeding-wheel"></span>
+			<span class="leo-bt-cart-content">
+				<i class="fa fa-shopping-cart"></i>
+				Add to Cart
+			</span>
+		</button>
+		
+	</form>
+</div>
+
+
+<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
+
+
+<div class="view">
+	<a class="btn-product btn" href="http://localhost/home-accessories/15-pack-mug-framed-poster.html">
 		<span>More</span>
 	</a>
 </div></div></div>
@@ -5471,174 +5605,20 @@ function OwlLoaded(el){
   </div>
 </article>
                     		    	</div>
-        	<div class="item">
-    		                                    <article class="product-miniature js-product-miniature" data-id-product="18" data-id-product-attribute="36" itemscope itemtype="http://schema.org/Product">
-  <div class="thumbnail-container">
-    <div class="product-image">
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-				<a href="http://localhost/stationery/18-36-hummingbird-notebook.html#/22-paper_type-ruled" class="thumbnail product-thumbnail">
-			<img
-				class="img-fluid"
-				src = "http://localhost/20-large_default/hummingbird-notebook.jpg"
-				alt = "Mountain fox notebook"
-				data-full-size-image-url = "http://localhost/20-large_default/hummingbird-notebook.jpg"
-			> 
-							<span class="product-additional" data-idproduct="18"></span>
-					</a>
-	
-
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<ul class="product-flags">
-  	<li class="product-flag new">Nowy</li>
-  </ul>
-
-<div class="functional-buttons clearfix">
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
-<div class="wishlist">
-	<a class="leo-wishlist-button btn-product btn" href="#" data-id-wishlist="" data-id-product="18" data-id-product-attribute="36" title="Add to Wishlist">
-		<span class="leo-wishlist-bt-loading cssload-speeding-wheel"></span>
-		<span class="leo-wishlist-bt-content">
-			<i class="fa fa-heart" aria-hidden="true"></i>
-		</span>
-	</a>
-</div>
-
-
-<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_wishlist_button.tpl -->
-
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-<div class="quickview no-variants hidden-sm-down">
-<a
-  href="#"
-  class="quick-view btn-product btn"
-  data-link-action="quickview"
->
-	<span class="leo-quickview-bt-loading cssload-speeding-wheel"></span>
-	<span class="leo-quickview-bt-content">
-		<i class="fa fa-eye hidden-lg-up"></i>
-		<span class="hidden-md-down">Quick View</span>
-	</span>
-</a>
-</div>
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
-<div class="compare">
-	<a class="leo-compare-button btn-product btn" href="#" data-id-product="18" title="Add to Compare">
-	<span class="leo-compare-bt-loading cssload-speeding-wheel"></span>
-	<span class="leo-compare-bt-content">
-		<i class="fa fa-files-o" aria-hidden="true"></i>
-	</span>
-</a>
-</div>
-
-
-
-<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_compare_button.tpl -->
-
-</div></div>
-    <div class="product-meta">
-<!-- @file modulesappagebuilderviewstemplatesfrontproductsfile_tpl -->
-        
-              <div class="product-price-and-shipping ">
-              
-
-              
-
-              <span class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                <span itemprop="priceCurrency" content="PLN"></span><span itemprop="price" content="15.87">15,87 zł</span>
-              </span>
-                            
-
-              
-            </div>
-                  
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-  <h3 class="h3 product-title" itemprop="name"><a href="http://localhost/stationery/18-36-hummingbird-notebook.html#/22-paper_type-ruled">Hummingbird notebook</a></h3>
-
-
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
-<!-- begin /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
-	<div class="leo-list-product-reviews" >
-		<div class="leo-list-product-reviews-wraper">
-			<div class="star_content clearfix">
-															<div class="star"></div>
-																				<div class="star"></div>
-																				<div class="star"></div>
-																				<div class="star"></div>
-																				<div class="star"></div>
-																</div>
-					</div>
-	</div>
-
-<!-- end /var/www/html/modules/leofeature/views/templates/hook/leo_list_product_review.tpl -->
-<!-- end module:leofeature/views/templates/hook/leo_list_product_review.tpl -->
-
-
-
-  <div class="product-description-short" itemprop="description"><p><span style="font-size:10pt;font-style:normal;">120 sheets notebook with hard cover made of recycled cardboard. 16x22cm</span></p></div>
-<div class="action">
-<!-- @file modules\appagebuilder\views\templates\front\products\file_tpl -->
-
-<!-- begin /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
-<div class="button-container cart">
-	<form action="http://localhost/koszyk" method="post">
-		<input type="hidden" name="token" value="06727bdc6ca393118ef17eaf645307b5">
-		<input type="hidden" value="300" class="quantity_product quantity_product_18" name="quantity_product">
-		<input type="hidden" value="1" class="minimal_quantity minimal_quantity_18" name="minimal_quantity">
-		<input type="hidden" value="36" class="id_product_attribute id_product_attribute_18" name="id_product_attribute">
-		<input type="hidden" value="18" class="id_product" name="id_product">
-		<input type="hidden" name="id_customization" value="" class="product_customization_id">
-			
-		<input type="hidden" class="input-group form-control qty qty_product qty_product_18" name="qty" value="1" data-min="1">
-		  <button class="btn btn-primary btn-product add-to-cart leo-bt-cart leo-bt-cart_18" data-button-action="add-to-cart" type="submit">
-			<span class="leo-loading cssload-speeding-wheel"></span>
-			<span class="leo-bt-cart-content">
-				<i class="fa fa-shopping-cart"></i>
-				Add to Cart
-			</span>
-		</button>
-		
-	</form>
-</div>
-
-
-<!-- end /var/www/html/themes/ap_office/modules/leofeature/views/templates/hook/leo_cart_button.tpl -->
-
-
-<div class="view">
-	<a class="btn-product btn" href="http://localhost/stationery/18-36-hummingbird-notebook.html#/22-paper_type-ruled">
-		<span>More</span>
-	</a>
-</div></div></div>
-  </div>
-</article>
-                    		    	</div>
         </div>
 </div>
 <script type="text/javascript">
 ap_list_functions.push(function(){
-    if($('#carousel-1731782655').parents('.tab-pane').length)
+    if($('#carousel-2804062065').parents('.tab-pane').length)
     {		
-        if(!$('#carousel-1731782655').parents('.tab-pane').hasClass('active'))
+        if(!$('#carousel-2804062065').parents('.tab-pane').hasClass('active'))
         {
-            var width_owl_active_tab = $('#carousel-1731782655').parents('.tab-pane').siblings('.active').find('.owl-carousel').width();		
-            $('#carousel-1731782655').width(width_owl_active_tab);
+            var width_owl_active_tab = $('#carousel-2804062065').parents('.tab-pane').siblings('.active').find('.owl-carousel').width();		
+            $('#carousel-2804062065').width(width_owl_active_tab);
         }
     }
-	$('#carousel-1731782655').imagesLoaded( function() {
-		$('#carousel-1731782655').owlCarousel({
+	$('#carousel-2804062065').imagesLoaded( function() {
+		$('#carousel-2804062065').owlCarousel({
 			items :             5,
 			itemsDesktop :      [1200,4],
 			itemsDesktopSmall : [992,3],
@@ -5759,7 +5739,7 @@ function OwlLoaded(el){
 					</div>
 							</div>
 			</div>
-    <div id="carousel-3291152255" class="owl-carousel owl-theme owl-loading profile-default">
+    <div id="carousel-2283392476" class="owl-carousel owl-theme owl-loading profile-default">
             	<div class="item first">
     		                                    <article class="product-miniature js-product-miniature" data-id-product="19" data-id-product-attribute="0" itemscope itemtype="http://schema.org/Product">
   <div class="thumbnail-container">
@@ -7305,16 +7285,16 @@ function OwlLoaded(el){
 </div>
 <script type="text/javascript">
 ap_list_functions.push(function(){
-    if($('#carousel-3291152255').parents('.tab-pane').length)
+    if($('#carousel-2283392476').parents('.tab-pane').length)
     {		
-        if(!$('#carousel-3291152255').parents('.tab-pane').hasClass('active'))
+        if(!$('#carousel-2283392476').parents('.tab-pane').hasClass('active'))
         {
-            var width_owl_active_tab = $('#carousel-3291152255').parents('.tab-pane').siblings('.active').find('.owl-carousel').width();		
-            $('#carousel-3291152255').width(width_owl_active_tab);
+            var width_owl_active_tab = $('#carousel-2283392476').parents('.tab-pane').siblings('.active').find('.owl-carousel').width();		
+            $('#carousel-2283392476').width(width_owl_active_tab);
         }
     }
-	$('#carousel-3291152255').imagesLoaded( function() {
-		$('#carousel-3291152255').owlCarousel({
+	$('#carousel-2283392476').imagesLoaded( function() {
+		$('#carousel-2283392476').owlCarousel({
 			items :             5,
 			itemsDesktop :      [1200,4],
 			itemsDesktopSmall : [992,3],

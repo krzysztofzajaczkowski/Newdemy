@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-10 01:47:36
+/* Smarty version 3.1.33, created on 2020-10-17 19:30:44
   from '/var/www/html/themes/ap_office/modules/appagebuilder/views/templates/hook/letter-blog/ApBlog.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f80f698ce6fe4_77178189',
+  'unifunc' => 'content_5f8b2a449b2d32_78039025',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c02d9ed1671ba51bff7fa335117d8b1457a86ae2' => 
     array (
       0 => '/var/www/html/themes/ap_office/modules/appagebuilder/views/templates/hook/letter-blog/ApBlog.tpl',
-      1 => 1602197331,
+      1 => 1602938947,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f80f698ce6fe4_77178189 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f8b2a449b2d32_78039025 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- @file modules\appagebuilder\views\templates\hook\ApBlog -->
 <?php if (isset($_smarty_tpl->tpl_vars['formAtts']->value['lib_has_error']) && $_smarty_tpl->tpl_vars['formAtts']->value['lib_has_error']) {?>
     <?php if (isset($_smarty_tpl->tpl_vars['formAtts']->value['lib_error']) && $_smarty_tpl->tpl_vars['formAtts']->value['lib_error']) {?>
