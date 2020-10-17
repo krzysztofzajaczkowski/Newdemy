@@ -1,6 +1,0 @@
-25b2d1,172.18.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=aH0taI3Q-mXunmCiiUnyUwzxBjO8fn8Yo90I6t3DsuQ&rand=1602940026217,1602940028,,200
-176b98,172.18.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=aH0taI3Q-mXunmCiiUnyUwzxBjO8fn8Yo90I6t3DsuQ&rand=1602955693054,1602955701,,200
-d296fa,172.18.0.1,GET,http://localhost/admin-panel/index.php/improve/modules/manage?_token=aH0taI3Q-mXunmCiiUnyUwzxBjO8fn8Yo90I6t3DsuQ,1602955805,,200
-00ff93,172.18.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=aH0taI3Q-mXunmCiiUnyUwzxBjO8fn8Yo90I6t3DsuQ&rand=1602955808532,1602955819,,200
-9bdab9,172.18.0.1,GET,http://localhost/admin-panel/index.php/improve/modules/alerts/count?_token=aH0taI3Q-mXunmCiiUnyUwzxBjO8fn8Yo90I6t3DsuQ,1602955820,,200
-ce2a32,172.18.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=aH0taI3Q-mXunmCiiUnyUwzxBjO8fn8Yo90I6t3DsuQ&rand=1602955834303,1602955837,,200
