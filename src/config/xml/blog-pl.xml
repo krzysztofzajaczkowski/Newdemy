@@ -6,6 +6,22 @@
     <language>pl</language>
      <atom:link href="https://www.prestashop.com/pl/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Ważne etapy budowania firmy:  aby osiągnąć sukces, musisz się rozwijać</title>
+    <link>https://www.prestashop.com/pl/blog/etapy-budowania-firmy</link>
+    <description>Każdy biznes ma swój cykl życia. Pierwszy etap to wyłącznie pomysł – produkt wyobraźni, moment olśnienia w głowie przedsiębiorcy.</description>
+     <pubDate>Fri, 16 Oct 2020 17:26:27 +0200</pubDate>
+ <dc:creator>luca mastroianni</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/etapy-budowania-firmy</guid>
+  </item>
+  <item>
+    <title>7 sposobów na skuteczną obsługę posprzedażową</title>
+    <link>https://www.prestashop.com/pl/blog/sposobow-obsluge-posprzedazowa</link>
+    <description>Jak zadbać o dobrą relację z klientem, kiedy dokona już zakupu? Oto 7 sposobów na usprawnienie procesu sprzedaży i optymalizację retencji klientów.</description>
+     <pubDate>Wed, 14 Oct 2020 16:48:36 +0200</pubDate>
+ <dc:creator>luca mastroianni</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/sposobow-obsluge-posprzedazowa</guid>
+  </item>
+  <item>
     <title>Chatboty – znacznie więcej niż obsługa klienta</title>
     <link>https://www.prestashop.com/pl/blog/chatboty-obsluga-klienta</link>
     <description>Z komunikatorów online codziennie korzystają miliony osób.</description>
@@ -68,22 +84,6 @@
      <pubDate>Mon, 14 Sep 2020 14:24:31 +0200</pubDate>
  <dc:creator>luca mastroianni</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/pl/blog/sukces-musisz-rozwijac</guid>
-  </item>
-  <item>
-    <title>E-commerce: Na jakie wskaźniki zwracać uwagę?</title>
-    <link>https://www.prestashop.com/pl/blog/ecommerce-wskazniki-uwage</link>
-    <description>Analizując dane firmowe, możesz zyskać wiedzę, która pozwoli zmaksymalizować sprzedaż.</description>
-     <pubDate>Thu, 10 Sep 2020 17:42:35 +0200</pubDate>
- <dc:creator>luca mastroianni</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/pl/blog/ecommerce-wskazniki-uwage</guid>
-  </item>
-  <item>
-    <title>Influencer marketing: na czym polega i jak może pomóc Twojej firmie?</title>
-    <link>https://www.prestashop.com/pl/blog/influencer-marketing-ecommerce</link>
-    <description>W mediach społecznościowych można znaleźć osoby z setkami tysięcy fanów, jak również takie z kilkoma tysiącami, ale które wciąż mogą wiele zdziałać.</description>
-     <pubDate>Fri, 28 Aug 2020 14:48:22 +0200</pubDate>
- <dc:creator>luca mastroianni</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/pl/blog/influencer-marketing-ecommerce</guid>
   </item>
   </channel>
 </rss>
