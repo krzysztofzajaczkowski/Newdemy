@@ -36,7 +36,7 @@ class __TwigTemplate_16c11df40b65e650792b25bc69c621ae3e8709c26808d29d8a8d745e3ca
         echo "
 ";
         // line 26
-        $this->loadTemplate("@PrestaShop/Admin/Sell/Catalog/Categories/Blocks/delete_categories_modal.html.twig", "@PrestaShop/Admin/Sell/Catalog/Categories/Blocks/delete_categories_modal.html.twig", 26, "110858557")->display(twig_array_merge($context, ["id" => ($this->getAttribute(        // line 27
+        $this->loadTemplate("@PrestaShop/Admin/Sell/Catalog/Categories/Blocks/delete_categories_modal.html.twig", "@PrestaShop/Admin/Sell/Catalog/Categories/Blocks/delete_categories_modal.html.twig", 26, "914293590")->display(twig_array_merge($context, ["id" => ($this->getAttribute(        // line 27
 ($context["grid"] ?? $this->getContext($context, "grid")), "id", []) . "_grid_delete_categories_modal"), "title" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("What do you want to do with the products associated with this category?", [], "Admin.Catalog.Notification"), "closable" => true, "actions" => [0 => ["type" => "button", "label" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Delete", [], "Admin.Actions"), "class" => "btn btn-danger btn-lg js-submit-delete-categories"]]]));
         
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
@@ -126,7 +126,7 @@ class __TwigTemplate_16c11df40b65e650792b25bc69c621ae3e8709c26808d29d8a8d745e3ca
 
 
 /* @PrestaShop/Admin/Sell/Catalog/Categories/Blocks/delete_categories_modal.html.twig */
-class __TwigTemplate_16c11df40b65e650792b25bc69c621ae3e8709c26808d29d8a8d745e3cabaf3f___110858557 extends \Twig\Template
+class __TwigTemplate_16c11df40b65e650792b25bc69c621ae3e8709c26808d29d8a8d745e3cabaf3f___914293590 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
