@@ -24,17 +24,16 @@
 *}
 
 <div class="email_subscription">
-  <h4>{l s='Newsletter' d='Modules.Emailsubscription.Shop'}</h4>
+  <h4>{l s='Newsletter' mod='ps_emailsubscription'}</h4>
   {if $msg}
-    <p class="notification {if $nw_error}notification-error{else}notification-success{/if}">{$msg}</p>
+    <p class="notification {if $nw_error}notification-error{else}notification-success{/if}">{$msg|escape:'htmlall':'UTF-8' nofilter}</p>
   {/if}
-  <form action="{$urls.pages.index}" method="post">
-    <input type="text" name="email" value="{$value}" placeholder="{l s='Your e-mail' d='Modules.Emailsubscription.Shop'}" />
+  <form action="{$urls.pages.index|escape:'htmlall':'UTF-8' nofilter}" method="post">
+    <input type="text" name="email" value="{$value|escape:'htmlall':'UTF-8' nofilter}" placeholder="{l s='Your e-mail' mod='ps_emailsubscription'}" />
     {if $conditions}
-      <p>{$conditions}</p>
+      <p>{$conditions|escape:'htmlall':'UTF-8' nofilter}</p>
     {/if}
     <input type="submit" value="ok" name="submitNewsletter" />
-    {hook h='displayGDPRConsent' id_module=$id_module}
     <input type="hidden" name="action" value="0" />
   </form>
 </div>

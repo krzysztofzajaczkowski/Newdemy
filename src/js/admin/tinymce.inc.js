@@ -1,16 +1,9 @@
-/*
- *  @Website: apollotheme.com - prestashop template provider
- *  @author Apollotheme <apollotheme@gmail.com>
- *  @copyright  2007-2019 Apollotheme
- *  @description: 
- */
 /**
  * Change default icons to marerial icons
  */
 function changeToMaterial() {
   var materialIconAssoc = {
     'mce-i-code': '<i class="material-icons">code</i>',
-	'mce-i-appagebuilder': '<i class="material-icons">settings_ethernet</i>',
     'mce-i-none': '<i class="material-icons">format_color_text</i>',
     'mce-i-bold': '<i class="material-icons">format_bold</i>',
     'mce-i-italic': '<i class="material-icons">format_italic</i>',
@@ -52,16 +45,13 @@ function tinySetup(config) {
     config.selector = '.' + config.editor_selector;
   }
 
-  if (typeof lang_is_rtl === 'undefined') {
-    var lang_is_rtl = '0';
-  }
 
   var default_config = {
     selector: ".rte",
-    plugins: "align appagebuilder colorpicker link image filemanager table media placeholder advlist code table autoresize",
-    browser_spellcheck: true,	
+    plugins: "align colorpicker link image filemanager table media placeholder advlist code table autoresize",
+    browser_spellcheck: true,
     toolbar1: "code,colorpicker,bold,italic,underline,strikethrough,blockquote,link,align,bullist,numlist,table,image,media,formatselect",
-    toolbar2: "appagebuilder",
+    toolbar2: "",
     external_filemanager_path: baseAdminDir + "filemanager/",
     filemanager_title: "File manager",
     external_plugins: {"filemanager": baseAdminDir + "filemanager/plugin.min.js"},
@@ -79,9 +69,9 @@ function tinySetup(config) {
     init_instance_callback: "changeToMaterial",
     rel_list:[
       { title: 'nofollow', value: 'nofollow' }
-    ],
+    ]
   };
-	
+
   $.each(default_config, function (index, el) {
     if (config[index] === undefined)
       config[index] = el;
@@ -91,6 +81,6 @@ function tinySetup(config) {
   $('body').on('click', '.mce-btn, .mce-open, .mce-menu-item', function () {
     changeToMaterial();
   });
-  
+
   tinyMCE.init(config);
 }
