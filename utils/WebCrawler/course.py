@@ -16,8 +16,7 @@ class Course:
                 else (length[0:length.find(' ')] + ' godzina' if length[len(length)-4:len(length)] == 'hour' \
                 else (length[0:length.find(' ')] + ' minut' if length[len(length)-4:len(length)] == 'mins' \
                 else length))
-
-
+ 
     def makeJSON(self):
         dataString = {}
         dataString['title'] = self.title
@@ -28,6 +27,5 @@ class Course:
         dataString['imageSource'] = self.imageSource
         dataString['length'] = self.length
         dataString['level'] = self.level
-        jsonObject = json.dumps(dataString, ensure_ascii=False).encode('utf8')
-        jsonObject = jsonObject.decode('utf8')
-        return jsonObject
+   
+        return dataString
