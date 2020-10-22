@@ -16,6 +16,8 @@ from course import Course
 # Web Driver configuration
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
+os.remove('objectsInJSON.txt')
+coursesList = []
 
 # getting pages URLs
 f = open("URLs.txt", "r")
@@ -24,12 +26,10 @@ for x in f:
     URLs.append(x)
 f.close()
 
-os.remove('objectsInJSON.txt')
-
 # searching through each page from file and through each subpage (< 1 2 3 ... 7 >)
 for URL in URLs:
     emptyPage = False # means that the page number is out of range and there is no more content on this page
-    subpageCounter = 6
+    subpageCounter = 1
     while not emptyPage:
         print(URL+'&p='+str(subpageCounter))
         driver.get(URL+'&p='+str(subpageCounter))
@@ -37,8 +37,10 @@ for URL in URLs:
         try: # element with this class name is a big container for all smaller divs. If it is not present then there is no content on the page
             WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, 'course-list--container--3zXPS')))
             container = driver.find_element_by_class_name('course-list--container--3zXPS')
+            coursesBiggerDivs = container.find_elements_by_class_name('browse-course-card--link--3KIkQ')
             courses = container.find_elements_by_class_name('course-card--container--3w8Zm')
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            counter = 0
             for course in courses: # each course we convert into an object of 'Course' class (data extraction)
                 title = course.find_element_by_class_name('udlite-heading-md').text
                 desc = course.find_element_by_class_name('udlite-text-sm').text
@@ -76,15 +78,33 @@ for URL in URLs:
                 except NoSuchElementException:
                     price = 'Brak ceny'
 
-                c = Course(title, desc, author, ratings, price, imageSourceURL, courseLength, courseLevel)
-                string = c.makeJSON()
-                print(string)
-                with open('objectsInJSON.txt','a',encoding='utf-8') as file:
-                    json.dump(string, file, ensure_ascii=False)
-                    file.write("\n")
+                try:
+                    courseLink = coursesBiggerDivs[counter].get_attribute('href')
+                except NoSuchElementException:
+                    courseLink = None
+
+                counter += 1
+                c = Course(title, desc, author, ratings, price, imageSourceURL, courseLength, courseLevel, courseLink)
+                coursesList.append(c)
 
         except TimeoutException:
             print('[INFO] Ostatnia podstrona adresu URL')
             emptyPage = True
+
+for course in coursesList:
+    driver.get(course.URL)
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, 'topic-menu')))
+    topicDiv = driver.find_element_by_class_name('topic-menu')
+    elements = topicDiv.find_elements_by_class_name('udlite-heading-sm')
+    course.setCategory(elements[0].text)
+    courseDescription = driver.find_element_by_class_name('styles--description--3y4KY')
+    course.setExtendedDescription(courseDescription.get_attribute('innerHTML'))
+
+    string = course.makeJSON()
+    print(string)
+    with open('objectsInJSON.txt','a',encoding='utf-8') as file:
+        json.dump(string, file, ensure_ascii=False)
+        file.write("\n")
+
 driver.quit()
 file.close()
