@@ -8,19 +8,14 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
 import time
+import json
+import os
 from course import Course
 
-coursesObjectsList = []
 
 # Web Driver configuration
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
-
-'''
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('headless')
-driver = webdriver.Chrome(chrome_options = chrome_options)
-'''
 
 # getting pages URLs
 f = open("URLs.txt", "r")
@@ -29,13 +24,12 @@ for x in f:
     URLs.append(x)
 f.close()
 
-# writing JSON objects as a string to the file
-file = open('objectsInJSON.txt','w')
+os.remove('objectsInJSON.txt')
 
 # searching through each page from file and through each subpage (< 1 2 3 ... 7 >)
 for URL in URLs:
     emptyPage = False # means that the page number is out of range and there is no more content on this page
-    subpageCounter = 1
+    subpageCounter = 6
     while not emptyPage:
         print(URL+'&p='+str(subpageCounter))
         driver.get(URL+'&p='+str(subpageCounter))
@@ -58,13 +52,6 @@ for URL in URLs:
                     ratings = spanElement.text
 
                 try:
-                    priceDiv = course.find_element_by_css_selector('div.price-text--price-part--Tu6MH')
-                    spans = priceDiv.find_elements_by_tag_name('span')
-                    price = spans[len(spans)-1].text
-                except NoSuchElementException:
-                    price = 'Brak ceny'
-
-                try:
                     details = course.find_elements_by_css_selector('span.course-card--row--1OMjg')
                     courseLength = details[0].text
                     courseLevel = details[len(details)-1].text
@@ -81,21 +68,23 @@ for URL in URLs:
                     print("Brak zdjęcia")
                     imageSourceURL = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.smarthome.com.au%2Faeotec-z-wave-plug-in-smart-switch-6.html&psig=AOvVaw33Vx1wP6a3B3QAn_6WPe4A&ust=1602514347326000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNitsanlrOwCFQAAAAAdAAAAABAE'
 
+                try:
+                    priceDiv = course.find_element_by_css_selector('div.price-text--price-part--Tu6MH')
+                    ActionChains(driver).move_to_element(priceDiv).perform()
+                    spans = priceDiv.find_elements_by_tag_name('span')
+                    price = spans[len(spans) - 1].text
+                except NoSuchElementException:
+                    price = 'Brak ceny'
+
                 c = Course(title, desc, author, ratings, price, imageSourceURL, courseLength, courseLevel)
-                #coursesObjectsList.append(c)
-                file.write(c.makeJSON())
-                file.write("\n")
+                string = c.makeJSON()
+                print(string)
+                with open('objectsInJSON.txt','a',encoding='utf-8') as file:
+                    json.dump(string, file, ensure_ascii=False)
+                    file.write("\n")
 
         except TimeoutException:
             print('[INFO] Ostatnia podstrona adresu URL')
             emptyPage = True
 driver.quit()
-
-'''
-for course in coursesObjectsList:
-    file.write(course.makeJSON())
-    file.write("\n")
-'''
 file.close()
-
-#print("Liczba kursów: " + str(len(coursesObjectsList)))
