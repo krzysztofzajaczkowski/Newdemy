@@ -16,11 +16,10 @@ from course import Course
 # Web Driver configuration
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
-os.remove('objectsInJSON.txt')
 coursesList = []
 
 # getting pages URLs
-f = open("URLs.txt", "r")
+f = open("URL.txt", "r")
 URLs = []
 for x in f:
     URLs.append(x)
@@ -91,17 +90,20 @@ for URL in URLs:
             print('[INFO] Ostatnia podstrona adresu URL')
             emptyPage = True
 
-for course in coursesList:
+os.remove('objectsInJSON.txt')
+
+for course in coursesList: #search through each course page and get some more specific information
     driver.get(course.URL)
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, 'topic-menu')))
     topicDiv = driver.find_element_by_class_name('topic-menu')
     elements = topicDiv.find_elements_by_class_name('udlite-heading-sm')
     course.setCategory(elements[0].text)
+    course.setSubcategory(elements[1].text)
     courseDescription = driver.find_element_by_class_name('styles--description--3y4KY')
     course.setExtendedDescription(courseDescription.get_attribute('innerHTML'))
 
+    # write converted course object into output file
     string = course.makeJSON()
-    print(string)
     with open('objectsInJSON.txt','a',encoding='utf-8') as file:
         json.dump(string, file, ensure_ascii=False)
         file.write("\n")
