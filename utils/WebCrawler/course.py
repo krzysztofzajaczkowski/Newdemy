@@ -8,6 +8,7 @@ class Course:
         self.title = title
         self.desciption = description
         self.category = None
+        self.subcategory = None
         self.author = author
         self.rating = rating
         self.price = 'Darmowy'if price == 'Free' else price[2:] + ' zł'
@@ -25,6 +26,9 @@ class Course:
     def setCategory(self, category):
         self.category = category
 
+    def setSubcategory(self, subcategory):
+        self.subcategory = subcategory
+
     def setExtendedDescription(self, extendedDescription):
         self.extendedDescription = extendedDescription
 
@@ -34,6 +38,7 @@ class Course:
         dataString['description'] = self.desciption
         dataString['author'] = self.author
         dataString['category'] = self.category
+        dataString['subcategory'] = self.subcategory
         dataString['rating'] = self.rating
         dataString['price'] = self.price
         dataString['imageSource'] = self.imageSource
@@ -41,5 +46,4 @@ class Course:
         dataString['level'] = self.level
         dataString['URL'] = self.URL
         dataString['extendedDescription'] = self.extendedDescription
-
         return dataString
