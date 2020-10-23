@@ -1,2 +1,9 @@
 291e75,172.23.0.1,GET,http://localhost/admin-panel/index.php/configure/advanced/performance/?_token=jvkOfPKlWuD9J9wDq9nY3rCwjIXc4ioWMdHEnUv-zV0,1603136663,,200
 5843a2,172.23.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=jvkOfPKlWuD9J9wDq9nY3rCwjIXc4ioWMdHEnUv-zV0&rand=1603136664248,1603136664,,200
+65fe78,172.18.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=1dhRGSqZuvF2Tuo4flcH6NV3VrV54P5q3owmLmG5Ilw&rand=1603476351800,1603476351,,200
+a2e03a,172.18.0.1,GET,http://localhost/admin-panel/index.php/configure/advanced/emails/?_token=1dhRGSqZuvF2Tuo4flcH6NV3VrV54P5q3owmLmG5Ilw,1603476356,,200
+eda74d,172.18.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=1dhRGSqZuvF2Tuo4flcH6NV3VrV54P5q3owmLmG5Ilw&rand=1603476356791,1603476356,,200
+415eff,172.18.0.1,POST,http://localhost/admin-panel/index.php/configure/advanced/emails/options?_token=1dhRGSqZuvF2Tuo4flcH6NV3VrV54P5q3owmLmG5Ilw,1603476373,,302
+afc1cf,172.18.0.1,GET,http://localhost/admin-panel/index.php/configure/advanced/emails/?_token=1dhRGSqZuvF2Tuo4flcH6NV3VrV54P5q3owmLmG5Ilw,1603476373,,200
+c9d591,172.18.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=1dhRGSqZuvF2Tuo4flcH6NV3VrV54P5q3owmLmG5Ilw&rand=1603476373909,1603476374,,200
+6bc2c6,172.18.0.1,POST,http://localhost/admin-panel/index.php/configure/advanced/emails/send-testing-email?_token=1dhRGSqZuvF2Tuo4flcH6NV3VrV54P5q3owmLmG5Ilw,1603476471,,200
