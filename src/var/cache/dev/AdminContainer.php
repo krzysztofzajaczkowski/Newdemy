@@ -1221,6 +1221,7 @@ class AdminContainer extends Container
                 87 => 'ht_googleanalytics',
                 88 => 'ps_specials',
                 89 => 'ps_banner',
+                90 => 'ps_cashondelivery',
             ],
             'ps_cache_dir' => '/var/www/html/var/cache/dev/',
             'mail_themes_uri' => '/mails/themes',

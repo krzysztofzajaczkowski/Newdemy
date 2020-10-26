@@ -84,10 +84,10 @@ class SearchProvider implements FacetsRendererInterface, ProductSearchProviderIn
 
         return [
             $sortSalesDesc->setLabel(
-                $translator->trans('Best sellers', [], 'Modules.Facetedsearch.Shop')
+                $translator->trans('Najpopularniejsze', [], 'Modules.Facetedsearch.Shop')
             ),
             $sortPosAsc->setLabel(
-                $translator->trans('Relevance', [], 'Modules.Facetedsearch.Shop')
+                $translator->trans('Dopasowanie', [], 'Modules.Facetedsearch.Shop')
             ),
             $sortNameAsc->setLabel(
                 $translator->trans('Name, A to Z', [], 'Shop.Theme.Catalog')

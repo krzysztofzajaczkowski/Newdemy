@@ -1,3 +1,2 @@
-c2d313,172.22.0.1,GET,http://localhost/admin-panel/index.php/configure/advanced/performance/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM,1603741747,,200
-2d17f8,172.22.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM&rand=1603741748060,1603741747,,200
-9960b2,172.22.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM&rand=1603741781165,1603741781,,200
+de0a7a,172.22.0.1,GET,http://localhost/admin-panel/index.php/configure/advanced/performance/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM,1603754084,,200
+19b343,172.22.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM&rand=1603754084751,1603754084,,200
