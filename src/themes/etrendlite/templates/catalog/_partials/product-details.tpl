@@ -42,15 +42,15 @@
         {/if}
       </div>
     {/if}
-    {if isset($product.reference_to_display)}
+    {*{if isset($product.reference_to_display)}
       <div class="product-reference">
         <label class="label">{l s='Reference' d='Shop.Theme.Catalog'} </label>
         <span itemprop="sku">{$product.reference_to_display}</span>
       </div>
     {/if}
-  {/block}
+  *}{/block}
 
-  {block name='product_quantities'}
+  {*{block name='product_quantities'}
     {if $product.show_quantities}
       <div class="product-quantities">
         <label class="label">{l s='In stock' d='Shop.Theme.Catalog'}</label>
@@ -58,7 +58,7 @@
       </div>
     {/if}
   {/block}
-
+*}
   {block name='product_availability_date'}
     {if $product.availability_date}
       <div class="product-availability-date">
@@ -89,7 +89,7 @@
   {/block}
 
   {* if product have specific references, a table will be added to product details section *}
-  {block name='product_specific_references'}
+  {*{block name='product_specific_references'}
     {if isset($product.specific_references)}
       <section class="product-features">
         <h3 class="h6">{l s='Specific References' d='Shop.Theme.Catalog'}</h3>
@@ -102,7 +102,7 @@
       </section>
     {/if}
   {/block}
-
+*}
   {block name='product_condition'}
     {if $product.condition}
       <div class="product-condition">

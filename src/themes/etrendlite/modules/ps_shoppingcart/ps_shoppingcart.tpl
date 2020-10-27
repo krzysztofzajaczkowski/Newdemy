@@ -30,7 +30,7 @@
                 {*{/if}*}
                 <span class="text">{l s='My Cart' d='Shop.Theme.Checkout'}</span>
                 <span class="cart-qty">
-                    <span class="cart-number">{$cart.products_count} Item(s)</span>
+                    <span class="cart-number">{$cart.products_count} Kurs(ów)</span>
                 </span>
                 {*{if $cart.products_count > 0}*}
             </a>
