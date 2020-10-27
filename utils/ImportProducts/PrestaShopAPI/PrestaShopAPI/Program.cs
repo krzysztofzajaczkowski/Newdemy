@@ -27,10 +27,14 @@ namespace PrestaShopAPI
             var host = Host.CreateDefaultBuilder()
                 .ConfigureServices((context, services) =>
                 {
-
+                    services.AddHttpClient();
+                    services.AddSingleton<Initializer>();
                 })
                 .UseSerilog()
                 .Build();
+
+            var service = ActivatorUtilities.CreateInstance<Initializer>(host.Services);
+            await service.InitializeProducts();
         }
 
         static void BuildConfig(IConfigurationBuilder builder)
