@@ -1,15 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Text.Json;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web;
+using Bukimedia.PrestaSharp.Entities;
 using Bukimedia.PrestaSharp.Entities.AuxEntities;
 using Bukimedia.PrestaSharp.Factories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using PrestaShopAPI.Entities;
 using PrestaShopAPI.Extensions;
+using category = Bukimedia.PrestaSharp.Entities.AuxEntities.category;
+using language = Bukimedia.PrestaSharp.Entities.AuxEntities.language;
+using product = Bukimedia.PrestaSharp.Entities.product;
+using product_feature = Bukimedia.PrestaSharp.Entities.AuxEntities.product_feature;
+using product_option_value = Bukimedia.PrestaSharp.Entities.product_option_value;
 
 namespace PrestaShopAPI
 {
@@ -174,6 +183,405 @@ namespace PrestaShopAPI
 
         public async Task InitializeProducts()
         {
+            try
+            {
+                var jsonString = await File.ReadAllTextAsync(_config.GetSection("products").GetValue<string>("jsonFilePath"));
+                var allCourses = JsonSerializer.Deserialize<List<Course>>(jsonString);
+
+                var uniqueNames = allCourses.Select(c => c.Title).Distinct().ToList();
+
+                var courses = new List<Course>();
+                uniqueNames.ForEach(n =>
+                {
+                    courses.Add(allCourses.First(c => c.Title == n));
+                });
+
+                var subcategories = await InitializeCategories(courses);
+
+                var materialsOption = new product_option()
+                {
+                    name = new List<language>
+                    {
+                        new language(1, "Materiały")
+                    },
+                    public_name = new List<language>
+                    {
+                        new language(1, "Materiały")
+                    },
+                    group_type = "select",
+                };
+                materialsOption = await productOptionFactory.AddAsync(materialsOption);
+                await Task.Delay(1 * 10);
+                var withoutMaterialsOptionValue = new product_option_value()
+                {
+                    id_attribute_group = materialsOption.id,
+                    name = new List<language>
+                    {
+                        new language(1, "Bez materiałów"),
+                    }
+                };
+                var withMaterialsOptionValue = new product_option_value()
+                {
+                    id_attribute_group = materialsOption.id,
+                    name = new List<language>
+                    {
+                        new language(1, "Z materiałami"),
+                    }
+                };
+
+                withoutMaterialsOptionValue = await productOptionValueFactory.AddAsync(withoutMaterialsOptionValue);
+                await Task.Delay(1 * 10);
+                withMaterialsOptionValue = await productOptionValueFactory.AddAsync(withMaterialsOptionValue);
+                await Task.Delay(1 * 10);
+                var certificateOption = new product_option()
+                {
+                    name = new List<language>
+                    {
+                        new language(1, "Certyfikaty")
+                    },
+                    public_name = new List<language>
+                    {
+                        new language(1, "Certyfikaty")
+                    },
+                    group_type = "select",
+                };
+                certificateOption = await productOptionFactory.AddAsync(certificateOption);
+                await Task.Delay(1 * 10);
+                var withoutCertificateOptionValue = new product_option_value()
+                {
+                    id_attribute_group = certificateOption.id,
+                    name = new List<language>
+                    {
+                        new language(1, "Bez certyfikatu"),
+                    }
+                };
+                var withCertificateOptionValue = new product_option_value()
+                {
+                    id_attribute_group = certificateOption.id,
+                    name = new List<language>
+                    {
+                        new language(1, "Z certyfikatem"),
+                    }
+                };
+                withoutCertificateOptionValue = await productOptionValueFactory.AddAsync(withoutCertificateOptionValue);
+                await Task.Delay(1 * 10);
+                withCertificateOptionValue = await productOptionValueFactory.AddAsync(withCertificateOptionValue);
+                await Task.Delay(1 * 10);
+
+                var authorFeature = new Bukimedia.PrestaSharp.Entities.product_feature
+                {
+                    name = new List<language>
+                    {
+                        new language(1, "Autor")
+                    }
+                };
+
+                authorFeature = await productFeatureFactory.AddAsync(authorFeature);
+                await Task.Delay(1 * 10);
+                var levelFeature = new Bukimedia.PrestaSharp.Entities.product_feature
+                {
+                    name = new List<language>
+                    {
+                        new language(1, "Poziom")
+                    }
+                };
+
+                levelFeature = await productFeatureFactory.AddAsync(levelFeature);
+                await Task.Delay(1 * 10);
+                var ratingFeature = new Bukimedia.PrestaSharp.Entities.product_feature
+                {
+                    name = new List<language>
+                    {
+                        new language(1, "Ocena")
+                    }
+                };
+
+                ratingFeature = await productFeatureFactory.AddAsync(ratingFeature);
+                await Task.Delay(1 * 10);
+                var lengthFeature = new Bukimedia.PrestaSharp.Entities.product_feature
+                {
+                    name = new List<language>
+                    {
+                        new language(1, "Czas trwania")
+                    }
+                };
+
+                lengthFeature = await productFeatureFactory.AddAsync(lengthFeature);
+                await Task.Delay(1 * 10);
+
+
+
+                var authors = courses.Select(c => c.Author).Distinct().ToList();
+                var authorValues = new List<Bukimedia.PrestaSharp.Entities.product_feature_value>();
+                foreach (var author in authors)
+                {
+                    var authorFeatureValue = new Bukimedia.PrestaSharp.Entities.product_feature_value()
+                    {
+                        id_feature = authorFeature.id,
+                        value = new List<language>
+                        {
+                            new language(1, author)
+                        }
+                    };
+                    authorFeatureValue = await productFeatureValueFactory.AddAsync(authorFeatureValue);
+                    authorValues.Add(authorFeatureValue);
+                }
+                var levels = courses.Select(c => c.Level).Distinct().ToList();
+                var levelValues = new List<Bukimedia.PrestaSharp.Entities.product_feature_value>();
+                foreach (var level in levels)
+                {
+                    var levelFeatureValue = new Bukimedia.PrestaSharp.Entities.product_feature_value()
+                    {
+                        id_feature = levelFeature.id,
+                        value = new List<language>
+                        {
+                            new language(1, level)
+                        }
+                    };
+                    levelFeatureValue = await productFeatureValueFactory.AddAsync(levelFeatureValue);
+                    levelValues.Add(levelFeatureValue);
+                }
+                var ratings = courses.Select(c => c.Rating).Distinct().ToList();
+                var ratingValues = new List<Bukimedia.PrestaSharp.Entities.product_feature_value>();
+                foreach (var rating in ratings)
+                {
+                    var ratingFeatureValue = new Bukimedia.PrestaSharp.Entities.product_feature_value()
+                    {
+                        id_feature = ratingFeature.id,
+                        value = new List<language>
+                        {
+                            new language(1, rating)
+                        }
+                    };
+                    ratingFeatureValue = await productFeatureValueFactory.AddAsync(ratingFeatureValue);
+                    ratingValues.Add(ratingFeatureValue);
+                }
+                var lengths = courses.Select(c => c.Length).Distinct().ToList();
+                var lengthValues = new List<Bukimedia.PrestaSharp.Entities.product_feature_value>();
+                foreach (var length in lengths)
+                {
+                    var lengthFeatureValue = new Bukimedia.PrestaSharp.Entities.product_feature_value()
+                    {
+                        id_feature = lengthFeature.id,
+                        value = new List<language>
+                        {
+                            new language(1, length)
+                        }
+                    };
+                    lengthFeatureValue = await productFeatureValueFactory.AddAsync(lengthFeatureValue);
+                    lengthValues.Add(lengthFeatureValue);
+                }
+
+                var combinations = new List<combination>()
+                {
+                    new combination()
+                    {
+                        quantity = 999,
+                        default_on = 1,
+                        associations = new AssociationsCombination()
+                        {
+                            product_option_values = new List<Bukimedia.PrestaSharp.Entities.AuxEntities.product_option_value>
+                            {
+                                new Bukimedia.PrestaSharp.Entities.AuxEntities.product_option_value()
+                                {
+                                    id = withoutMaterialsOptionValue.id.Value
+                                },
+                                new Bukimedia.PrestaSharp.Entities.AuxEntities.product_option_value()
+                                {
+                                    id = withoutCertificateOptionValue.id.Value
+                                }
+                            }
+                        },
+                        minimal_quantity = 1,
+                        price = 0
+                    },
+                    new combination()
+                    {
+                        quantity = 999,
+                        associations = new AssociationsCombination()
+                        {
+                            product_option_values = new List<Bukimedia.PrestaSharp.Entities.AuxEntities.product_option_value>
+                            {
+                                new Bukimedia.PrestaSharp.Entities.AuxEntities.product_option_value()
+                                {
+                                    id = withoutMaterialsOptionValue.id.Value
+                                },
+                                new Bukimedia.PrestaSharp.Entities.AuxEntities.product_option_value()
+                                {
+                                    id = withCertificateOptionValue.id.Value
+                                }
+                            }
+                        },
+                        minimal_quantity = 1,
+                        price = decimal.Round(100 / (decimal) 1.23)
+                    },
+                    new combination()
+                    {
+                        quantity = 999,
+                        associations = new AssociationsCombination()
+                        {
+                            product_option_values = new List<Bukimedia.PrestaSharp.Entities.AuxEntities.product_option_value>
+                            {
+
+                                new Bukimedia.PrestaSharp.Entities.AuxEntities.product_option_value()
+                                {
+                                    id = withMaterialsOptionValue.id.Value
+                                },
+                                new Bukimedia.PrestaSharp.Entities.AuxEntities.product_option_value()
+                                {
+                                    id = withoutCertificateOptionValue.id.Value
+                                }
+                            }
+                        },
+                        minimal_quantity = 1,
+                        price = decimal.Round(20 / (decimal) 1.23)
+                    },
+                    new combination()
+                    {
+                        quantity = 999,
+                        associations = new AssociationsCombination()
+                        {
+                            product_option_values = new List<Bukimedia.PrestaSharp.Entities.AuxEntities.product_option_value>
+                            {
+                                new Bukimedia.PrestaSharp.Entities.AuxEntities.product_option_value()
+                                {
+                                    id = withMaterialsOptionValue.id.Value
+                                },
+                                new Bukimedia.PrestaSharp.Entities.AuxEntities.product_option_value()
+                                {
+                                    id = withCertificateOptionValue.id.Value
+                                }
+                            }
+                        },
+                        minimal_quantity = 1,
+                        price = decimal.Round(120 / (decimal) 1.23),
+                    }
+                };
+
+                var counter = 0;
+
+                foreach (var course in courses)
+                {
+                    var categoryId = subcategories.First(sc => sc.Name == course.Subcategory).Id;
+
+
+                    var regex = new Regex(@"<(div|/div)[^>]{0,}>");
+
+                    var description = regex.Replace(course.ExtendedDescription, "");
+
+                    regex = new Regex(@"<button(.*)");
+
+                    description = regex.Replace(description, "").FilterDescription();
+
+
+
+                    var product = new Bukimedia.PrestaSharp.Entities.product()
+                    {
+                        active = 1,
+                        state = 1,
+                        name = new List<language>
+                        {
+                            new language(1, course.Title.ToPrestaName())
+                        },
+                        link_rewrite = new List<language>
+                        {
+                            new language(1, course.Title.ToLower().Slugify())
+                        },
+                        available_for_order = 1,
+                        price = decimal.Round(decimal.Parse(course.Price.FilterToParsableDecimal()) / (decimal)1.23, 2),
+                        id_tax_rules_group = 1,
+                        visibility = "both",
+                        type = "simple",
+                        show_price = 1,
+                        minimal_quantity = 1,
+                        id_category_default = categoryId,
+                        description = new List<language>
+                        {
+                            new language(1, description)
+                        },
+                        associations = new AssociationsProduct()
+                        {
+                            categories = new List<category>
+                            {
+                                new category(categoryId)
+                            },
+                            product_features = new List<product_feature>
+                            {
+                                new product_feature
+                                {
+                                    id = authorFeature.id.Value,
+                                    id_feature_value = authorValues.First(av => av.value.First().Value == course.Author).id.Value
+                                },
+                                new product_feature
+                                {
+                                    id = levelFeature.id.Value,
+                                    id_feature_value = levelValues.First(av => av.value.First().Value == course.Level).id.Value
+                                },
+                                new product_feature
+                                {
+                                    id = ratingFeature.id.Value,
+                                    id_feature_value = ratingValues.First(av => av.value.First().Value == course.Rating).id.Value
+                                },
+                                new product_feature
+                                {
+                                    id = lengthFeature.id.Value,
+                                    id_feature_value = lengthValues.First(av => av.value.First().Value == course.Length).id.Value
+                                },
+                            }
+                        },
+                        description_short = new List<language>
+                        {
+                            new language(1, course.Description)
+                        }
+                    };
+                    course.ImageSource = course.ImageSource.Replace("240x135", "750x422");
+                    var response = await _imgHttpClient.GetAsync(course.ImageSource);
+                    await Task.Delay(1 * 10);
+                    var imgBytes = await response.Content.ReadAsByteArrayAsync();
+                    regex = new Regex(@"((.*)course/)(.*)(/)");
+                    var output = regex.Match(course.URL);
+                    var imageName = output.Groups[3].Value;
+                    var imagePath = string.Concat(_config.GetSection("products").GetValue<string>("imageFilePath"), imageName, ".jpg");
+                    File.WriteAllBytes(imagePath, imgBytes);
+                    product = await productFactory.AddAsync(product);
+                    await imageFactory.AddProductImageAsync(product.id.Value, imagePath);
+                    await Task.Delay(1 * 1500);
+
+                    for (var i = 0; i < combinations.Count; i++)
+                    {
+                        combinations[i].id_product = product.id;
+                        combinations[i] = await combinationsFactory.AddAsync(combinations[i]);
+                    }
+
+                    combinations.ForEach(c => c.quantity = 10);
+
+                    await combinationsFactory.UpdateListAsync(combinations);
+
+                    product = await productFactory.GetAsync(product.id.Value);
+
+                    foreach (var associationsStockAvailable in product.associations.stock_availables)
+                    {
+                        var stockAvailable = await stockAvailableFactory.GetAsync(associationsStockAvailable.id);
+                        await Task.Delay(1 * 10);
+                        stockAvailable.quantity = 999;
+                        stockAvailable.out_of_stock = 1;
+                        await stockAvailableFactory.UpdateAsync(stockAvailable);
+                        await Task.Delay(1 * 10);
+                    }
+
+
+                    var products = await productFactory.GetAllAsync();
+                    await FixProductsCategoryTree(products);
+
+                    var prods = await productFactory.GetAllAsync();
+                    await FixProductDescriptionHardSpace(prods);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
 
         }
     }
