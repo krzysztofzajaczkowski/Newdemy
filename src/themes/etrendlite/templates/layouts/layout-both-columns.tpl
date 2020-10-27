@@ -33,6 +33,18 @@
 
     <body id="{$page.page_name}" class="{$page.body_classes|classnames}">
 
+        {literal}
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-GE1P715NK5"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-GE1P715NK5');
+            </script>
+        {/literal}
+
         {block name='hook_after_body_opening_tag'}
             {hook h='displayAfterBodyOpeningTag'}
         {/block}
