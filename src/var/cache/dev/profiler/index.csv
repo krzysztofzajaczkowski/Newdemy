@@ -1,2 +1,2 @@
-de0a7a,172.22.0.1,GET,http://localhost/admin-panel/index.php/configure/advanced/performance/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM,1603754084,,200
-19b343,172.22.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM&rand=1603754084751,1603754084,,200
+561444,172.24.0.1,GET,http://localhost/admin-panel/index.php/configure/advanced/performance/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054,1603796556,,200
+cef671,172.24.0.1,POST,http://localhost/admin-panel/index.php/common/notifications?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054&rand=1603796557455,1603796557,,200

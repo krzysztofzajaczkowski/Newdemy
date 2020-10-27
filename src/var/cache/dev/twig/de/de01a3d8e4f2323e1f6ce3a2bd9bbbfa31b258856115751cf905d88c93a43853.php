@@ -11,8 +11,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* __string_template__82165c8de60a2de2c226ff2971b76a3980fa647a29245667856c311bd7cfb320 */
-class __TwigTemplate_417958ae1a17552e2e3615861f48919b12e111f4b319dc8f110ad5c8da30aaca extends \Twig\Template
+/* __string_template__df8e8683c2e4da8a145d26f7baa8bd54b1615ea8cfed1a0828fca14c520248e6 */
+class __TwigTemplate_b4cb4f9ce37d05a3af1b1b9ffa10c0ff87c208cb17ffbb559c328012b92ba08f extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -36,10 +36,10 @@ class __TwigTemplate_417958ae1a17552e2e3615861f48919b12e111f4b319dc8f110ad5c8da3
     protected function doDisplay(array $context, array $blocks = [])
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "__string_template__82165c8de60a2de2c226ff2971b76a3980fa647a29245667856c311bd7cfb320"));
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "__string_template__df8e8683c2e4da8a145d26f7baa8bd54b1615ea8cfed1a0828fca14c520248e6"));
 
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "__string_template__82165c8de60a2de2c226ff2971b76a3980fa647a29245667856c311bd7cfb320"));
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "__string_template__df8e8683c2e4da8a145d26f7baa8bd54b1615ea8cfed1a0828fca14c520248e6"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -82,9 +82,9 @@ class __TwigTemplate_417958ae1a17552e2e3615861f48919b12e111f4b319dc8f110ad5c8da3
     var employee_token = 'e3169da75102ec8ff3752cf26d629cdf';
     var choose_language_translate = 'Wybierz język';
     var default_language = '1';
-    var admin_modules_link = '/admin-panel/index.php/improve/modules/catalog/recommended?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM';
-    var admin_notification_get_link = '/admin-panel/index.php/common/notifications?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM';
-    var admin_notification_push_link = '/admin-panel/index.php/common/notifications/ack?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM';
+    var admin_modules_link = '/admin-panel/index.php/improve/modules/catalog/recommended?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054';
+    var admin_notification_get_link = '/admin-panel/index.php/common/notifications?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054';
+    var admin_notification_push_link = '/admin-panel/index.php/common/notifications/ack?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054';
     var tab_modules_list = 'a2hosting,oneandonehosting,ns8csp,jmango360_api';
     var update_success_msg = 'Aktualizacja powiodła się';
     var errorLogin = 'PrestaShop nie mógł zalogować się do Dodatków, sprawdź swoje uprawnienia i połączenie internetowe.';
@@ -101,7 +101,7 @@ class __TwigTemplate_417958ae1a17552e2e3615861f48919b12e111f4b319dc8f110ad5c8da3
   <script type=\"text/javascript\">
 var baseAdminDir = \"\\/admin-panel\\/\";
 var baseDir = \"\\/\";
-var changeFormLanguageUrl = \"\\/admin-panel\\/index.php\\/configure\\/advanced\\/employees\\/change-form-language?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\";
+var changeFormLanguageUrl = \"\\/admin-panel\\/index.php\\/configure\\/advanced\\/employees\\/change-form-language?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\";
 var currency = {\"iso_code\":\"PLN\",\"sign\":\"z\\u0142\",\"name\":\"Z\\u0142oty polski\",\"format\":null};
 var currency_specifications = {\"symbol\":[\",\",\"\\u00a0\",\";\",\"%\",\"-\",\"+\",\"E\",\"\\u00d7\",\"\\u2030\",\"\\u221e\",\"NaN\"],\"currencyCode\":\"PLN\",\"currencySymbol\":\"z\\u0142\",\"positivePattern\":\"#,##0.00\\u00a0\\u00a4\",\"negativePattern\":\"-#,##0.00\\u00a0\\u00a4\",\"maxFractionDigits\":2,\"minFractionDigits\":2,\"groupingUsed\":true,\"primaryGroupSize\":3,\"secondaryGroupSize\":3};
 var host_mode = false;
@@ -267,7 +267,7 @@ function updateNotifications(type) {
           <a
         class=\"dropdown-item js-quick-link\"
         href=\"#\"
-        data-rand=\"147\"
+        data-rand=\"133\"
         data-icon=\"icon-AdminAdvancedParameters\"
         data-method=\"add\"
         data-url=\"index.php/configure/advanced/performance\"
@@ -330,7 +330,7 @@ function updateNotifications(type) {
              data-placement=\"bottom\"
              data-html=\"true\"
              title=\"<p class='text-left'><strong>Twój sklep jest w trybie debugowania.</strong></p><p class='text-left'>Wyświetlane są wszystkie błędy i komunikaty PHP. Gdy nie jest już potrzebny, <strong>wyłącz</strong> ten tryb.</p>\"
-             href=\"/admin-panel/index.php/configure/advanced/performance/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\"
+             href=\"/admin-panel/index.php/configure/advanced/performance/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\"
           >
             <i class=\"material-icons\">bug_report</i>
             <span>Tryb debugowania</span>
@@ -399,14 +399,14 @@ function updateNotifications(type) {
                           <div class=\"tab-pane active empty\" id=\"orders-notifications\" role=\"tabpanel\">
             <p class=\"no-notification\">
               Obecnie brak nowych zamówień :(<br>
-              Czy sprawdziłeś <strong><a href=\"http://localhost/admin-panel/index.php?controller=AdminCarts&action=filterOnlyAbandonedCarts&token=1ee6ae01293160ac33d6aa8940a748d9\">porzucone koszyki</a></strong>?<br>Może znajdziesz tam swoje następne zamówienie!
+              Czy sprawdzałeś ostatnio współczynnik konwersji?
             </p>
             <div class=\"notification-elements\"></div>
           </div>
                                     <div class=\"tab-pane  empty\" id=\"customers-notifications\" role=\"tabpanel\">
             <p class=\"no-notification\">
               Obecnie brak nowych klientów :(<br>
-              Czy jesteś aktywny w mediach społecznościowych?
+              Czy wysłałeś ostatnio jakiekolwiek pozyskujące e-maile?
             </p>
             <div class=\"notification-elements\"></div>
           </div>
@@ -456,7 +456,7 @@ function updateNotifications(type) {
       
       <span class=\"employee_avatar\"><img class=\"avatar rounded-circle\" src=\"http://profile.prestashop.com/newdemy.kontakt%40gmail.com.jpg\" /></span>
       <span class=\"employee_profile\">Witaj ponownie Krzysztof</span>
-      <a class=\"dropdown-item employee-link profile-link\" href=\"/admin-panel/index.php/configure/advanced/employees/1/edit?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\">
+      <a class=\"dropdown-item employee-link profile-link\" href=\"/admin-panel/index.php/configure/advanced/employees/1/edit?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\">
       <i class=\"material-icons\">settings</i>
       Twój profil
     </a>
@@ -481,7 +481,7 @@ function updateNotifications(type) {
       </header>
 
   <nav class=\"nav-bar d-none d-md-block\">
-  <span class=\"menu-collapse\" data-toggle-url=\"/admin-panel/index.php/configure/advanced/employees/toggle-navigation?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\">
+  <span class=\"menu-collapse\" data-toggle-url=\"/admin-panel/index.php/configure/advanced/employees/toggle-navigation?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\">
     <i class=\"material-icons\">chevron_left</i>
     <i class=\"material-icons\">chevron_left</i>
   </span>
@@ -534,7 +534,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"5\" id=\"subtab-AdminInvoices\">
-                              <a href=\"/admin-panel/index.php/sell/orders/invoices/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Faktury
+                              <a href=\"/admin-panel/index.php/sell/orders/invoices/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Faktury
                               </a>
                             </li>
 
@@ -550,7 +550,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"7\" id=\"subtab-AdminDeliverySlip\">
-                              <a href=\"/admin-panel/index.php/sell/orders/delivery-slips/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Druk wysyłki
+                              <a href=\"/admin-panel/index.php/sell/orders/delivery-slips/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Druk wysyłki
                               </a>
                             </li>
 
@@ -569,7 +569,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"9\" id=\"subtab-AdminCatalog\">
-                  <a href=\"/admin-panel/index.php/sell/catalog/products?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/sell/catalog/products?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-store\">store</i>
                     <span>
                     Katalog
@@ -583,7 +583,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"10\" id=\"subtab-AdminProducts\">
-                              <a href=\"/admin-panel/index.php/sell/catalog/products?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Produkty
+                              <a href=\"/admin-panel/index.php/sell/catalog/products?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Produkty
                               </a>
                             </li>
 
@@ -591,7 +591,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"11\" id=\"subtab-AdminCategories\">
-                              <a href=\"/admin-panel/index.php/sell/catalog/categories?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Kategorie
+                              <a href=\"/admin-panel/index.php/sell/catalog/categories?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Kategorie
                               </a>
                             </li>
 
@@ -615,7 +615,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"16\" id=\"subtab-AdminParentManufacturers\">
-                              <a href=\"/admin-panel/index.php/sell/catalog/brands/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Marki &amp; Dostawcy
+                              <a href=\"/admin-panel/index.php/sell/catalog/brands/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Marki &amp; Dostawcy
                               </a>
                             </li>
 
@@ -639,7 +639,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"23\" id=\"subtab-AdminStockManagement\">
-                              <a href=\"/admin-panel/index.php/sell/stocks/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Stocks
+                              <a href=\"/admin-panel/index.php/sell/stocks/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Stocks
                               </a>
                             </li>
 
@@ -650,7 +650,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"24\" id=\"subtab-AdminParentCustomer\">
-                  <a href=\"/admin-panel/index.php/sell/customers/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/sell/customers/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-account_circle\">account_circle</i>
                     <span>
                     Klienci
@@ -664,7 +664,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"25\" id=\"subtab-AdminCustomers\">
-                              <a href=\"/admin-panel/index.php/sell/customers/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Klienci
+                              <a href=\"/admin-panel/index.php/sell/customers/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Klienci
                               </a>
                             </li>
 
@@ -749,7 +749,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"43\" id=\"subtab-AdminParentModulesSf\">
-                  <a href=\"/admin-panel/index.php/improve/modules/manage?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/improve/modules/manage?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-extension\">extension</i>
                     <span>
                     Moduły
@@ -763,7 +763,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"44\" id=\"subtab-AdminModulesSf\">
-                              <a href=\"/admin-panel/index.php/improve/modules/manage?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Module Manager
+                              <a href=\"/admin-panel/index.php/improve/modules/manage?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Module Manager
                               </a>
                             </li>
 
@@ -771,7 +771,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"48\" id=\"subtab-AdminParentModulesCatalog\">
-                              <a href=\"/admin-panel/index.php/modules/addons/modules/catalog?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Katalog
+                              <a href=\"/admin-panel/index.php/modules/addons/modules/catalog?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Katalog
                               </a>
                             </li>
 
@@ -782,7 +782,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"52\" id=\"subtab-AdminParentThemes\">
-                  <a href=\"/admin-panel/index.php/improve/design/themes/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/improve/design/themes/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-desktop_mac\">desktop_mac</i>
                     <span>
                     Wygląd
@@ -796,7 +796,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"126\" id=\"subtab-AdminThemesParent\">
-                              <a href=\"/admin-panel/index.php/improve/design/themes/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Szablony
+                              <a href=\"/admin-panel/index.php/improve/design/themes/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Szablony
                               </a>
                             </li>
 
@@ -804,7 +804,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"137\" id=\"subtab-AdminPsMboTheme\">
-                              <a href=\"/admin-panel/index.php/modules/addons/themes/catalog?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Katalog
+                              <a href=\"/admin-panel/index.php/modules/addons/themes/catalog?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Katalog
                               </a>
                             </li>
 
@@ -812,7 +812,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"55\" id=\"subtab-AdminParentMailTheme\">
-                              <a href=\"/admin-panel/index.php/improve/design/mail_theme/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Szablon maila
+                              <a href=\"/admin-panel/index.php/improve/design/mail_theme/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Szablon maila
                               </a>
                             </li>
 
@@ -820,7 +820,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"57\" id=\"subtab-AdminCmsContent\">
-                              <a href=\"/admin-panel/index.php/improve/design/cms-pages/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Strony
+                              <a href=\"/admin-panel/index.php/improve/design/cms-pages/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Strony
                               </a>
                             </li>
 
@@ -828,7 +828,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"58\" id=\"subtab-AdminModulesPositions\">
-                              <a href=\"/admin-panel/index.php/improve/design/modules/positions/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Pozycje
+                              <a href=\"/admin-panel/index.php/improve/design/modules/positions/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Pozycje
                               </a>
                             </li>
 
@@ -844,7 +844,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"125\" id=\"subtab-AdminLinkWidget\">
-                              <a href=\"/admin-panel/index.php/modules/link-widget/list?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Link Widget
+                              <a href=\"/admin-panel/index.php/modules/link-widget/list?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Link Widget
                               </a>
                             </li>
 
@@ -877,7 +877,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"62\" id=\"subtab-AdminShipping\">
-                              <a href=\"/admin-panel/index.php/improve/shipping/preferences?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Preferencje
+                              <a href=\"/admin-panel/index.php/improve/shipping/preferences?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Preferencje
                               </a>
                             </li>
 
@@ -888,7 +888,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"63\" id=\"subtab-AdminParentPayment\">
-                  <a href=\"/admin-panel/index.php/improve/payment/payment_methods?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/improve/payment/payment_methods?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-payment\">payment</i>
                     <span>
                     Płatność
@@ -902,7 +902,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"64\" id=\"subtab-AdminPayment\">
-                              <a href=\"/admin-panel/index.php/improve/payment/payment_methods?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Płatności
+                              <a href=\"/admin-panel/index.php/improve/payment/payment_methods?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Płatności
                               </a>
                             </li>
 
@@ -910,7 +910,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"65\" id=\"subtab-AdminPaymentPreferences\">
-                              <a href=\"/admin-panel/index.php/improve/payment/preferences?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Preferencje
+                              <a href=\"/admin-panel/index.php/improve/payment/preferences?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Preferencje
                               </a>
                             </li>
 
@@ -921,7 +921,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"66\" id=\"subtab-AdminInternational\">
-                  <a href=\"/admin-panel/index.php/improve/international/localization/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/improve/international/localization/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-language\">language</i>
                     <span>
                     Międzynarodowy
@@ -935,7 +935,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"67\" id=\"subtab-AdminParentLocalization\">
-                              <a href=\"/admin-panel/index.php/improve/international/localization/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Lokalizacja
+                              <a href=\"/admin-panel/index.php/improve/international/localization/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Lokalizacja
                               </a>
                             </li>
 
@@ -951,7 +951,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"76\" id=\"subtab-AdminParentTaxes\">
-                              <a href=\"/admin-panel/index.php/improve/international/taxes/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Podatki
+                              <a href=\"/admin-panel/index.php/improve/international/taxes/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Podatki
                               </a>
                             </li>
 
@@ -959,7 +959,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"79\" id=\"subtab-AdminTranslations\">
-                              <a href=\"/admin-panel/index.php/improve/international/translations/settings?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Tłumaczenia
+                              <a href=\"/admin-panel/index.php/improve/international/translations/settings?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Tłumaczenia
                               </a>
                             </li>
 
@@ -995,7 +995,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"81\" id=\"subtab-ShopParameters\">
-                  <a href=\"/admin-panel/index.php/configure/shop/preferences/preferences?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/configure/shop/preferences/preferences?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-settings\">settings</i>
                     <span>
                     Preferencje
@@ -1009,7 +1009,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"82\" id=\"subtab-AdminParentPreferences\">
-                              <a href=\"/admin-panel/index.php/configure/shop/preferences/preferences?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Ogólny
+                              <a href=\"/admin-panel/index.php/configure/shop/preferences/preferences?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Ogólny
                               </a>
                             </li>
 
@@ -1017,7 +1017,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"85\" id=\"subtab-AdminParentOrderPreferences\">
-                              <a href=\"/admin-panel/index.php/configure/shop/order-preferences/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Zamówienia
+                              <a href=\"/admin-panel/index.php/configure/shop/order-preferences/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Zamówienia
                               </a>
                             </li>
 
@@ -1025,7 +1025,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"88\" id=\"subtab-AdminPPreferences\">
-                              <a href=\"/admin-panel/index.php/configure/shop/product-preferences/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Produkty
+                              <a href=\"/admin-panel/index.php/configure/shop/product-preferences/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Produkty
                               </a>
                             </li>
 
@@ -1033,7 +1033,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"89\" id=\"subtab-AdminParentCustomerPreferences\">
-                              <a href=\"/admin-panel/index.php/configure/shop/customer-preferences/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Klienci
+                              <a href=\"/admin-panel/index.php/configure/shop/customer-preferences/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Klienci
                               </a>
                             </li>
 
@@ -1041,7 +1041,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"93\" id=\"subtab-AdminParentStores\">
-                              <a href=\"/admin-panel/index.php/configure/shop/contacts/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Kontakt
+                              <a href=\"/admin-panel/index.php/configure/shop/contacts/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Kontakt
                               </a>
                             </li>
 
@@ -1049,7 +1049,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"96\" id=\"subtab-AdminParentMeta\">
-                              <a href=\"/admin-panel/index.php/configure/shop/seo-urls/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Ruch
+                              <a href=\"/admin-panel/index.php/configure/shop/seo-urls/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Ruch
                               </a>
                             </li>
 
@@ -1076,7 +1076,7 @@ function updateNotifications(type) {
                                                 
                                                     
                 <li class=\"link-levelone has_submenu -active open ul-open\" data-submenu=\"103\" id=\"subtab-AdminAdvancedParameters\">
-                  <a href=\"/admin-panel/index.php/configure/advanced/system-information/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/configure/advanced/system-information/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-settings_applications\">settings_applications</i>
                     <span>
                     Zaawansowane
@@ -1090,7 +1090,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"104\" id=\"subtab-AdminInformation\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/system-information/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Informacja
+                              <a href=\"/admin-panel/index.php/configure/advanced/system-information/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Informacja
                               </a>
                             </li>
 
@@ -1098,7 +1098,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo -active\" data-submenu=\"105\" id=\"subtab-AdminPerformance\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/performance/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Wydajność
+                              <a href=\"/admin-panel/index.php/configure/advanced/performance/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Wydajność
                               </a>
                             </li>
 
@@ -1106,7 +1106,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"106\" id=\"subtab-AdminAdminPreferences\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/administration/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Administracja
+                              <a href=\"/admin-panel/index.php/configure/advanced/administration/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Administracja
                               </a>
                             </li>
 
@@ -1114,7 +1114,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"107\" id=\"subtab-AdminEmails\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/emails/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Adres e-mail
+                              <a href=\"/admin-panel/index.php/configure/advanced/emails/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Adres e-mail
                               </a>
                             </li>
 
@@ -1122,7 +1122,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"108\" id=\"subtab-AdminImport\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/import/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Importuj
+                              <a href=\"/admin-panel/index.php/configure/advanced/import/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Importuj
                               </a>
                             </li>
 
@@ -1130,7 +1130,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"109\" id=\"subtab-AdminParentEmployees\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/employees/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Zespół
+                              <a href=\"/admin-panel/index.php/configure/advanced/employees/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Zespół
                               </a>
                             </li>
 
@@ -1138,7 +1138,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"113\" id=\"subtab-AdminParentRequestSql\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/sql-requests/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Baza danych
+                              <a href=\"/admin-panel/index.php/configure/advanced/sql-requests/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Baza danych
                               </a>
                             </li>
 
@@ -1146,7 +1146,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"116\" id=\"subtab-AdminLogs\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/logs/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Logi
+                              <a href=\"/admin-panel/index.php/configure/advanced/logs/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Logi
                               </a>
                             </li>
 
@@ -1154,7 +1154,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"117\" id=\"subtab-AdminWebservice\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/webservice-keys/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> API
+                              <a href=\"/admin-panel/index.php/configure/advanced/webservice-keys/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> API
                               </a>
                             </li>
 
@@ -1177,7 +1177,7 @@ function updateNotifications(type) {
                       <li class=\"breadcrumb-item\">Zaawansowane</li>
           
                       <li class=\"breadcrumb-item active\">
-              <a href=\"/admin-panel/index.php/configure/advanced/performance/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" aria-current=\"page\">Wydajność</a>
+              <a href=\"/admin-panel/index.php/configure/advanced/performance/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" aria-current=\"page\">Wydajność</a>
             </li>
                   </ol>
       </nav>
@@ -1195,13 +1195,13 @@ function updateNotifications(type) {
             
                                                                                     <a
                   class=\"btn btn-primary  pointer\"                  id=\"page-header-desc-configuration-clear_cache\"
-                  href=\"/admin-panel/index.php/configure/advanced/performance/clear-cache?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\"                  title=\"Wyczyść pamięć podręczną\"                >
+                  href=\"/admin-panel/index.php/configure/advanced/performance/clear-cache?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\"                  title=\"Wyczyść pamięć podręczną\"                >
                   <i class=\"material-icons\">delete</i>                  Wyczyść pamięć podręczną
                 </a>
                                                                   <a
                 class=\"btn btn-outline-secondary \"
                 id=\"page-header-desc-configuration-modules-list\"
-                href=\"/admin-panel/index.php/improve/modules/catalog?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\"                title=\"Rekomendowane moduły\"
+                href=\"/admin-panel/index.php/improve/modules/catalog?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\"                title=\"Rekomendowane moduły\"
                               >
                 Rekomendowane moduły
               </a>
@@ -1211,7 +1211,7 @@ function updateNotifications(type) {
                    title=\"Pomoc\"
                    data-toggle=\"sidebar\"
                    data-target=\"#right-sidebar\"
-                   data-url=\"/admin-panel/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fpl%252Fdoc%252FAdminPerformance%253Fversion%253D1.7.6.5%2526country%253Dpl/Pomoc?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\"
+                   data-url=\"/admin-panel/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fpl%252Fdoc%252FAdminPerformance%253Fversion%253D1.7.6.5%2526country%253Dpl/Pomoc?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\"
                    id=\"product_form_open_help\"
                 >
                   Pomoc
@@ -1523,7 +1523,7 @@ function updateNotifications(type) {
 
     public function getTemplateName()
     {
-        return "__string_template__82165c8de60a2de2c226ff2971b76a3980fa647a29245667856c311bd7cfb320";
+        return "__string_template__df8e8683c2e4da8a145d26f7baa8bd54b1615ea8cfed1a0828fca14c520248e6";
     }
 
     public function getDebugInfo()
@@ -1581,9 +1581,9 @@ function updateNotifications(type) {
     var employee_token = 'e3169da75102ec8ff3752cf26d629cdf';
     var choose_language_translate = 'Wybierz język';
     var default_language = '1';
-    var admin_modules_link = '/admin-panel/index.php/improve/modules/catalog/recommended?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM';
-    var admin_notification_get_link = '/admin-panel/index.php/common/notifications?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM';
-    var admin_notification_push_link = '/admin-panel/index.php/common/notifications/ack?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM';
+    var admin_modules_link = '/admin-panel/index.php/improve/modules/catalog/recommended?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054';
+    var admin_notification_get_link = '/admin-panel/index.php/common/notifications?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054';
+    var admin_notification_push_link = '/admin-panel/index.php/common/notifications/ack?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054';
     var tab_modules_list = 'a2hosting,oneandonehosting,ns8csp,jmango360_api';
     var update_success_msg = 'Aktualizacja powiodła się';
     var errorLogin = 'PrestaShop nie mógł zalogować się do Dodatków, sprawdź swoje uprawnienia i połączenie internetowe.';
@@ -1600,7 +1600,7 @@ function updateNotifications(type) {
   <script type=\"text/javascript\">
 var baseAdminDir = \"\\/admin-panel\\/\";
 var baseDir = \"\\/\";
-var changeFormLanguageUrl = \"\\/admin-panel\\/index.php\\/configure\\/advanced\\/employees\\/change-form-language?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\";
+var changeFormLanguageUrl = \"\\/admin-panel\\/index.php\\/configure\\/advanced\\/employees\\/change-form-language?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\";
 var currency = {\"iso_code\":\"PLN\",\"sign\":\"z\\u0142\",\"name\":\"Z\\u0142oty polski\",\"format\":null};
 var currency_specifications = {\"symbol\":[\",\",\"\\u00a0\",\";\",\"%\",\"-\",\"+\",\"E\",\"\\u00d7\",\"\\u2030\",\"\\u221e\",\"NaN\"],\"currencyCode\":\"PLN\",\"currencySymbol\":\"z\\u0142\",\"positivePattern\":\"#,##0.00\\u00a0\\u00a4\",\"negativePattern\":\"-#,##0.00\\u00a0\\u00a4\",\"maxFractionDigits\":2,\"minFractionDigits\":2,\"groupingUsed\":true,\"primaryGroupSize\":3,\"secondaryGroupSize\":3};
 var host_mode = false;
@@ -1762,7 +1762,7 @@ function updateNotifications(type) {
           <a
         class=\"dropdown-item js-quick-link\"
         href=\"#\"
-        data-rand=\"147\"
+        data-rand=\"133\"
         data-icon=\"icon-AdminAdvancedParameters\"
         data-method=\"add\"
         data-url=\"index.php/configure/advanced/performance\"
@@ -1825,7 +1825,7 @@ function updateNotifications(type) {
              data-placement=\"bottom\"
              data-html=\"true\"
              title=\"<p class='text-left'><strong>Twój sklep jest w trybie debugowania.</strong></p><p class='text-left'>Wyświetlane są wszystkie błędy i komunikaty PHP. Gdy nie jest już potrzebny, <strong>wyłącz</strong> ten tryb.</p>\"
-             href=\"/admin-panel/index.php/configure/advanced/performance/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\"
+             href=\"/admin-panel/index.php/configure/advanced/performance/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\"
           >
             <i class=\"material-icons\">bug_report</i>
             <span>Tryb debugowania</span>
@@ -1894,14 +1894,14 @@ function updateNotifications(type) {
                           <div class=\"tab-pane active empty\" id=\"orders-notifications\" role=\"tabpanel\">
             <p class=\"no-notification\">
               Obecnie brak nowych zamówień :(<br>
-              Czy sprawdziłeś <strong><a href=\"http://localhost/admin-panel/index.php?controller=AdminCarts&action=filterOnlyAbandonedCarts&token=1ee6ae01293160ac33d6aa8940a748d9\">porzucone koszyki</a></strong>?<br>Może znajdziesz tam swoje następne zamówienie!
+              Czy sprawdzałeś ostatnio współczynnik konwersji?
             </p>
             <div class=\"notification-elements\"></div>
           </div>
                                     <div class=\"tab-pane  empty\" id=\"customers-notifications\" role=\"tabpanel\">
             <p class=\"no-notification\">
               Obecnie brak nowych klientów :(<br>
-              Czy jesteś aktywny w mediach społecznościowych?
+              Czy wysłałeś ostatnio jakiekolwiek pozyskujące e-maile?
             </p>
             <div class=\"notification-elements\"></div>
           </div>
@@ -1951,7 +1951,7 @@ function updateNotifications(type) {
       
       <span class=\"employee_avatar\"><img class=\"avatar rounded-circle\" src=\"http://profile.prestashop.com/newdemy.kontakt%40gmail.com.jpg\" /></span>
       <span class=\"employee_profile\">Witaj ponownie Krzysztof</span>
-      <a class=\"dropdown-item employee-link profile-link\" href=\"/admin-panel/index.php/configure/advanced/employees/1/edit?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\">
+      <a class=\"dropdown-item employee-link profile-link\" href=\"/admin-panel/index.php/configure/advanced/employees/1/edit?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\">
       <i class=\"material-icons\">settings</i>
       Twój profil
     </a>
@@ -1976,7 +1976,7 @@ function updateNotifications(type) {
       </header>
 
   <nav class=\"nav-bar d-none d-md-block\">
-  <span class=\"menu-collapse\" data-toggle-url=\"/admin-panel/index.php/configure/advanced/employees/toggle-navigation?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\">
+  <span class=\"menu-collapse\" data-toggle-url=\"/admin-panel/index.php/configure/advanced/employees/toggle-navigation?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\">
     <i class=\"material-icons\">chevron_left</i>
     <i class=\"material-icons\">chevron_left</i>
   </span>
@@ -2029,7 +2029,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"5\" id=\"subtab-AdminInvoices\">
-                              <a href=\"/admin-panel/index.php/sell/orders/invoices/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Faktury
+                              <a href=\"/admin-panel/index.php/sell/orders/invoices/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Faktury
                               </a>
                             </li>
 
@@ -2045,7 +2045,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"7\" id=\"subtab-AdminDeliverySlip\">
-                              <a href=\"/admin-panel/index.php/sell/orders/delivery-slips/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Druk wysyłki
+                              <a href=\"/admin-panel/index.php/sell/orders/delivery-slips/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Druk wysyłki
                               </a>
                             </li>
 
@@ -2064,7 +2064,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"9\" id=\"subtab-AdminCatalog\">
-                  <a href=\"/admin-panel/index.php/sell/catalog/products?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/sell/catalog/products?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-store\">store</i>
                     <span>
                     Katalog
@@ -2078,7 +2078,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"10\" id=\"subtab-AdminProducts\">
-                              <a href=\"/admin-panel/index.php/sell/catalog/products?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Produkty
+                              <a href=\"/admin-panel/index.php/sell/catalog/products?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Produkty
                               </a>
                             </li>
 
@@ -2086,7 +2086,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"11\" id=\"subtab-AdminCategories\">
-                              <a href=\"/admin-panel/index.php/sell/catalog/categories?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Kategorie
+                              <a href=\"/admin-panel/index.php/sell/catalog/categories?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Kategorie
                               </a>
                             </li>
 
@@ -2110,7 +2110,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"16\" id=\"subtab-AdminParentManufacturers\">
-                              <a href=\"/admin-panel/index.php/sell/catalog/brands/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Marki &amp; Dostawcy
+                              <a href=\"/admin-panel/index.php/sell/catalog/brands/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Marki &amp; Dostawcy
                               </a>
                             </li>
 
@@ -2134,7 +2134,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"23\" id=\"subtab-AdminStockManagement\">
-                              <a href=\"/admin-panel/index.php/sell/stocks/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Stocks
+                              <a href=\"/admin-panel/index.php/sell/stocks/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Stocks
                               </a>
                             </li>
 
@@ -2145,7 +2145,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"24\" id=\"subtab-AdminParentCustomer\">
-                  <a href=\"/admin-panel/index.php/sell/customers/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/sell/customers/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-account_circle\">account_circle</i>
                     <span>
                     Klienci
@@ -2159,7 +2159,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"25\" id=\"subtab-AdminCustomers\">
-                              <a href=\"/admin-panel/index.php/sell/customers/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Klienci
+                              <a href=\"/admin-panel/index.php/sell/customers/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Klienci
                               </a>
                             </li>
 
@@ -2244,7 +2244,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"43\" id=\"subtab-AdminParentModulesSf\">
-                  <a href=\"/admin-panel/index.php/improve/modules/manage?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/improve/modules/manage?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-extension\">extension</i>
                     <span>
                     Moduły
@@ -2258,7 +2258,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"44\" id=\"subtab-AdminModulesSf\">
-                              <a href=\"/admin-panel/index.php/improve/modules/manage?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Module Manager
+                              <a href=\"/admin-panel/index.php/improve/modules/manage?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Module Manager
                               </a>
                             </li>
 
@@ -2266,7 +2266,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"48\" id=\"subtab-AdminParentModulesCatalog\">
-                              <a href=\"/admin-panel/index.php/modules/addons/modules/catalog?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Katalog
+                              <a href=\"/admin-panel/index.php/modules/addons/modules/catalog?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Katalog
                               </a>
                             </li>
 
@@ -2277,7 +2277,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"52\" id=\"subtab-AdminParentThemes\">
-                  <a href=\"/admin-panel/index.php/improve/design/themes/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/improve/design/themes/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-desktop_mac\">desktop_mac</i>
                     <span>
                     Wygląd
@@ -2291,7 +2291,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"126\" id=\"subtab-AdminThemesParent\">
-                              <a href=\"/admin-panel/index.php/improve/design/themes/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Szablony
+                              <a href=\"/admin-panel/index.php/improve/design/themes/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Szablony
                               </a>
                             </li>
 
@@ -2299,7 +2299,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"137\" id=\"subtab-AdminPsMboTheme\">
-                              <a href=\"/admin-panel/index.php/modules/addons/themes/catalog?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Katalog
+                              <a href=\"/admin-panel/index.php/modules/addons/themes/catalog?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Katalog
                               </a>
                             </li>
 
@@ -2307,7 +2307,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"55\" id=\"subtab-AdminParentMailTheme\">
-                              <a href=\"/admin-panel/index.php/improve/design/mail_theme/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Szablon maila
+                              <a href=\"/admin-panel/index.php/improve/design/mail_theme/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Szablon maila
                               </a>
                             </li>
 
@@ -2315,7 +2315,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"57\" id=\"subtab-AdminCmsContent\">
-                              <a href=\"/admin-panel/index.php/improve/design/cms-pages/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Strony
+                              <a href=\"/admin-panel/index.php/improve/design/cms-pages/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Strony
                               </a>
                             </li>
 
@@ -2323,7 +2323,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"58\" id=\"subtab-AdminModulesPositions\">
-                              <a href=\"/admin-panel/index.php/improve/design/modules/positions/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Pozycje
+                              <a href=\"/admin-panel/index.php/improve/design/modules/positions/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Pozycje
                               </a>
                             </li>
 
@@ -2339,7 +2339,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"125\" id=\"subtab-AdminLinkWidget\">
-                              <a href=\"/admin-panel/index.php/modules/link-widget/list?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Link Widget
+                              <a href=\"/admin-panel/index.php/modules/link-widget/list?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Link Widget
                               </a>
                             </li>
 
@@ -2372,7 +2372,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"62\" id=\"subtab-AdminShipping\">
-                              <a href=\"/admin-panel/index.php/improve/shipping/preferences?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Preferencje
+                              <a href=\"/admin-panel/index.php/improve/shipping/preferences?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Preferencje
                               </a>
                             </li>
 
@@ -2383,7 +2383,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"63\" id=\"subtab-AdminParentPayment\">
-                  <a href=\"/admin-panel/index.php/improve/payment/payment_methods?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/improve/payment/payment_methods?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-payment\">payment</i>
                     <span>
                     Płatność
@@ -2397,7 +2397,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"64\" id=\"subtab-AdminPayment\">
-                              <a href=\"/admin-panel/index.php/improve/payment/payment_methods?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Płatności
+                              <a href=\"/admin-panel/index.php/improve/payment/payment_methods?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Płatności
                               </a>
                             </li>
 
@@ -2405,7 +2405,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"65\" id=\"subtab-AdminPaymentPreferences\">
-                              <a href=\"/admin-panel/index.php/improve/payment/preferences?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Preferencje
+                              <a href=\"/admin-panel/index.php/improve/payment/preferences?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Preferencje
                               </a>
                             </li>
 
@@ -2416,7 +2416,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"66\" id=\"subtab-AdminInternational\">
-                  <a href=\"/admin-panel/index.php/improve/international/localization/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/improve/international/localization/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-language\">language</i>
                     <span>
                     Międzynarodowy
@@ -2430,7 +2430,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"67\" id=\"subtab-AdminParentLocalization\">
-                              <a href=\"/admin-panel/index.php/improve/international/localization/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Lokalizacja
+                              <a href=\"/admin-panel/index.php/improve/international/localization/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Lokalizacja
                               </a>
                             </li>
 
@@ -2446,7 +2446,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"76\" id=\"subtab-AdminParentTaxes\">
-                              <a href=\"/admin-panel/index.php/improve/international/taxes/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Podatki
+                              <a href=\"/admin-panel/index.php/improve/international/taxes/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Podatki
                               </a>
                             </li>
 
@@ -2454,7 +2454,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"79\" id=\"subtab-AdminTranslations\">
-                              <a href=\"/admin-panel/index.php/improve/international/translations/settings?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Tłumaczenia
+                              <a href=\"/admin-panel/index.php/improve/international/translations/settings?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Tłumaczenia
                               </a>
                             </li>
 
@@ -2490,7 +2490,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"81\" id=\"subtab-ShopParameters\">
-                  <a href=\"/admin-panel/index.php/configure/shop/preferences/preferences?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/configure/shop/preferences/preferences?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-settings\">settings</i>
                     <span>
                     Preferencje
@@ -2504,7 +2504,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"82\" id=\"subtab-AdminParentPreferences\">
-                              <a href=\"/admin-panel/index.php/configure/shop/preferences/preferences?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Ogólny
+                              <a href=\"/admin-panel/index.php/configure/shop/preferences/preferences?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Ogólny
                               </a>
                             </li>
 
@@ -2512,7 +2512,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"85\" id=\"subtab-AdminParentOrderPreferences\">
-                              <a href=\"/admin-panel/index.php/configure/shop/order-preferences/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Zamówienia
+                              <a href=\"/admin-panel/index.php/configure/shop/order-preferences/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Zamówienia
                               </a>
                             </li>
 
@@ -2520,7 +2520,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"88\" id=\"subtab-AdminPPreferences\">
-                              <a href=\"/admin-panel/index.php/configure/shop/product-preferences/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Produkty
+                              <a href=\"/admin-panel/index.php/configure/shop/product-preferences/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Produkty
                               </a>
                             </li>
 
@@ -2528,7 +2528,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"89\" id=\"subtab-AdminParentCustomerPreferences\">
-                              <a href=\"/admin-panel/index.php/configure/shop/customer-preferences/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Klienci
+                              <a href=\"/admin-panel/index.php/configure/shop/customer-preferences/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Klienci
                               </a>
                             </li>
 
@@ -2536,7 +2536,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"93\" id=\"subtab-AdminParentStores\">
-                              <a href=\"/admin-panel/index.php/configure/shop/contacts/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Kontakt
+                              <a href=\"/admin-panel/index.php/configure/shop/contacts/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Kontakt
                               </a>
                             </li>
 
@@ -2544,7 +2544,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"96\" id=\"subtab-AdminParentMeta\">
-                              <a href=\"/admin-panel/index.php/configure/shop/seo-urls/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Ruch
+                              <a href=\"/admin-panel/index.php/configure/shop/seo-urls/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Ruch
                               </a>
                             </li>
 
@@ -2571,7 +2571,7 @@ function updateNotifications(type) {
                                                 
                                                     
                 <li class=\"link-levelone has_submenu -active open ul-open\" data-submenu=\"103\" id=\"subtab-AdminAdvancedParameters\">
-                  <a href=\"/admin-panel/index.php/configure/advanced/system-information/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\">
+                  <a href=\"/admin-panel/index.php/configure/advanced/system-information/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\">
                     <i class=\"material-icons mi-settings_applications\">settings_applications</i>
                     <span>
                     Zaawansowane
@@ -2585,7 +2585,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"104\" id=\"subtab-AdminInformation\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/system-information/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Informacja
+                              <a href=\"/admin-panel/index.php/configure/advanced/system-information/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Informacja
                               </a>
                             </li>
 
@@ -2593,7 +2593,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo -active\" data-submenu=\"105\" id=\"subtab-AdminPerformance\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/performance/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Wydajność
+                              <a href=\"/admin-panel/index.php/configure/advanced/performance/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Wydajność
                               </a>
                             </li>
 
@@ -2601,7 +2601,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"106\" id=\"subtab-AdminAdminPreferences\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/administration/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Administracja
+                              <a href=\"/admin-panel/index.php/configure/advanced/administration/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Administracja
                               </a>
                             </li>
 
@@ -2609,7 +2609,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"107\" id=\"subtab-AdminEmails\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/emails/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Adres e-mail
+                              <a href=\"/admin-panel/index.php/configure/advanced/emails/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Adres e-mail
                               </a>
                             </li>
 
@@ -2617,7 +2617,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"108\" id=\"subtab-AdminImport\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/import/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Importuj
+                              <a href=\"/admin-panel/index.php/configure/advanced/import/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Importuj
                               </a>
                             </li>
 
@@ -2625,7 +2625,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"109\" id=\"subtab-AdminParentEmployees\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/employees/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Zespół
+                              <a href=\"/admin-panel/index.php/configure/advanced/employees/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Zespół
                               </a>
                             </li>
 
@@ -2633,7 +2633,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"113\" id=\"subtab-AdminParentRequestSql\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/sql-requests/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Baza danych
+                              <a href=\"/admin-panel/index.php/configure/advanced/sql-requests/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Baza danych
                               </a>
                             </li>
 
@@ -2641,7 +2641,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"116\" id=\"subtab-AdminLogs\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/logs/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> Logi
+                              <a href=\"/admin-panel/index.php/configure/advanced/logs/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> Logi
                               </a>
                             </li>
 
@@ -2649,7 +2649,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"117\" id=\"subtab-AdminWebservice\">
-                              <a href=\"/admin-panel/index.php/configure/advanced/webservice-keys/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" class=\"link\"> API
+                              <a href=\"/admin-panel/index.php/configure/advanced/webservice-keys/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" class=\"link\"> API
                               </a>
                             </li>
 
@@ -2672,7 +2672,7 @@ function updateNotifications(type) {
                       <li class=\"breadcrumb-item\">Zaawansowane</li>
           
                       <li class=\"breadcrumb-item active\">
-              <a href=\"/admin-panel/index.php/configure/advanced/performance/?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\" aria-current=\"page\">Wydajność</a>
+              <a href=\"/admin-panel/index.php/configure/advanced/performance/?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\" aria-current=\"page\">Wydajność</a>
             </li>
                   </ol>
       </nav>
@@ -2690,13 +2690,13 @@ function updateNotifications(type) {
             
                                                                                     <a
                   class=\"btn btn-primary  pointer\"                  id=\"page-header-desc-configuration-clear_cache\"
-                  href=\"/admin-panel/index.php/configure/advanced/performance/clear-cache?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\"                  title=\"Wyczyść pamięć podręczną\"                >
+                  href=\"/admin-panel/index.php/configure/advanced/performance/clear-cache?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\"                  title=\"Wyczyść pamięć podręczną\"                >
                   <i class=\"material-icons\">delete</i>                  Wyczyść pamięć podręczną
                 </a>
                                                                   <a
                 class=\"btn btn-outline-secondary \"
                 id=\"page-header-desc-configuration-modules-list\"
-                href=\"/admin-panel/index.php/improve/modules/catalog?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\"                title=\"Rekomendowane moduły\"
+                href=\"/admin-panel/index.php/improve/modules/catalog?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\"                title=\"Rekomendowane moduły\"
                               >
                 Rekomendowane moduły
               </a>
@@ -2706,7 +2706,7 @@ function updateNotifications(type) {
                    title=\"Pomoc\"
                    data-toggle=\"sidebar\"
                    data-target=\"#right-sidebar\"
-                   data-url=\"/admin-panel/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fpl%252Fdoc%252FAdminPerformance%253Fversion%253D1.7.6.5%2526country%253Dpl/Pomoc?_token=M3lX3JcpgELqcbGMjYObSh0WXjb1hB8ssbxlJtr7NpM\"
+                   data-url=\"/admin-panel/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fpl%252Fdoc%252FAdminPerformance%253Fversion%253D1.7.6.5%2526country%253Dpl/Pomoc?_token=V8aSQnqhdJdSIFvhx6Qn05tozAABwrhVqgoElWIL054\"
                    id=\"product_form_open_help\"
                 >
                   Pomoc
@@ -2843,6 +2843,6 @@ function updateNotifications(type) {
     </div>
   
 {% block javascripts %}{% endblock %}{% block extra_javascripts %}{% endblock %}{% block translate_javascripts %}{% endblock %}</body>
-</html>", "__string_template__82165c8de60a2de2c226ff2971b76a3980fa647a29245667856c311bd7cfb320", "");
+</html>", "__string_template__df8e8683c2e4da8a145d26f7baa8bd54b1615ea8cfed1a0828fca14c520248e6", "");
     }
 }
