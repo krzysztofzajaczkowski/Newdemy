@@ -1,7 +1,5 @@
 openssl req -newkey rsa:2048 -new -nodes -x509 -days 365 -keyout ./docker/ssl/apache-selfsigned.key -out ./docker/ssl/apache-selfsigned.crt
 
-sed -i "s/localhost/$2/g" ./docker/ssl/000-default.conf
-
 docker cp docker/ssl/apache-selfsigned.key $1:/etc/ssl/private/apache-selfsigned.key
 docker cp docker/ssl/apache-selfsigned.crt $1:/etc/ssl/certs/apache-selfsigned.crt
 
