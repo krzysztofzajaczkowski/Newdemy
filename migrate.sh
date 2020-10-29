@@ -12,6 +12,6 @@ docker exec -it $1 mysql -u root -proot -D prestashop -h mariadb -e "UPDATE ps_c
 docker exec -it $1 a2enmod ssl
 docker exec -it $1 service apache2 restart
 
-sudo find ./src/themes/etrendlite/ -type f -exec sed -i "s/localhost/$2/" {} \;
+sudo find ./src/themes/etrendlite/mails/ -type f -exec sed -i "s/localhost/$2/" {} \;
 
 docker-compose up -d
