@@ -9,5 +9,5 @@ openssl req -newkey rsa:2048 -new -nodes -x509 -days 365 -keyout /ssl/apache-sel
 cp /ssl/apache-selfsigned.key /etc/ssl/private/apache-selfsigned.key
 cp /ssl/apache-selfsigned.crt /etc/ssl/certs/apache-selfsigned.crt
 a2enmod ssl
-service apachectl restart
-apachectl -D FOREGROUND
+service apache2 restart
+apache2 -D FOREGROUND
