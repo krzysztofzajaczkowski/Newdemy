@@ -1,3 +1,10 @@
+FROM alpine:3.5 as intermediate
+
+RUN apk update
+RUN apk add git
+
+RUN git clone https://github.com/krzysztofzajaczkowski/newdemy
+
 FROM prestashop/prestashop:1.7.6.5
 
 ARG DATABASE_HOST=mariadb
@@ -7,7 +14,7 @@ ARG DATABASE_USER=root
 ARG DATABASE_PASSWORD=root
 ARG DATABASE_PREFIX=ps_
 
-COPY src .
+COPY --from=intermediate /newdemy/src .
 RUN chmod -R 777 .
 RUN rm -rf install/
 
