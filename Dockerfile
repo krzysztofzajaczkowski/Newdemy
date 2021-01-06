@@ -3,7 +3,7 @@ FROM alpine:3.5 as intermediate
 RUN apk update
 RUN apk add git
 
-RUN git clone --single-branch https://github.com/krzysztofzajaczkowski/newdemy
+RUN git clone -b gut-deploy --single-branch https://github.com/krzysztofzajaczkowski/newdemy
 
 FROM prestashop/prestashop:1.7.6.5
 
