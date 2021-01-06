@@ -26,8 +26,8 @@ RUN sed -i "s|'database_password' => 'root'|'database_password' => '${DATABASE_P
 RUN sed -i "s|'ps_'|'${DATABASE_PREFIX}'|g" ./app/config/parameters.php
 
 RUN mkdir ssl
-COPY ./docker/ssl/000-default.conf /ssl/000-default.conf
-COPY ssl.sh .
+COPY --from=intermediate /newdemy/docker/ssl/000-default.conf /ssl/000-default.conf
+COPY --from=intermediate /newdemy/ssl.sh .
 EXPOSE 80
 EXPOSE 443
 CMD ["bash", "ssl.sh"]
