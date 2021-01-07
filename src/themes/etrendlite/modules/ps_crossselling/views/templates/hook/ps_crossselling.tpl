@@ -27,7 +27,7 @@
     <div class="container">
         <div class="section-title">
             <span>{l s='Customers who bought this' d='Shop.Theme.Catalog'} 
-                <i>{l s='Product also bought:' d='Shop.Theme.Catalog'}</i>
+                <i>{l s='Kupili również:' d='Shop.Theme.Catalog'}</i>
             </span>
         </div>
         <div class="products-grid">
