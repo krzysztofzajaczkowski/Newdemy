@@ -46,7 +46,10 @@
 {/block}
 
 {block name='content'}
-
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+<script>
+	Cookies.set('last_seen', {$product.id_category_default});
+</script>
     <section id="main" itemscope itemtype="https://schema.org/Product">
         <meta itemprop="url" content="{$product.url}">
 

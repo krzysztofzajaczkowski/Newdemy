@@ -24,6 +24,59 @@
 *}
 
 <section class="featured-products clearfix top-margin bottom-margin">
+
+<div hidden id="recommendations_container" class="container">
+  <div class="section-title">
+    <span>Rekomendacje</span>
+  </div>
+  <div>
+    <div>
+          <div id="recommendations_row" style="display: flex;"></div>
+        </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+<script>
+var last_seen_cat = Cookies.get('last_seen');
+var recommended;
+var category_rewrite;
+var recommendations_row = document.querySelector("#recommendations_row");
+var recommendations_container = document.querySelector("#recommendations_container");
+var base_url = location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+if (last_seen_cat != undefined) {
+  recommendations_container.hidden = false;
+  axios.get(base_url + "/api/categories/" + last_seen_cat + "?output_format=JSON&ws_key=3IE7BSDF2WK458ZLJ67NT8H3X7QR952M")
+    .then(resp => {
+    category_rewrite = resp.data.category.link_rewrite;
+    axios.get(base_url + "/api/products?output_format=JSON&display=[name,id,price,link_rewrite]&filter[id_category_default]=" + last_seen_cat + "&ws_key=3IE7BSDF2WK458ZLJ67NT8H3X7QR952M")
+      .then(resp2 => {
+        const shuffled = resp2.data.products.sort(() => 0.5 - Math.random());
+        recommended = shuffled.slice(0,4);
+        recommended.forEach(e => {
+          e.link = base_url + "/index.php?id_product=" + e.id + "&rewrite=" + e.link_rewrite + "&controller=product";
+          e.image = base_url + "/img/p/" + e.id.toString().charAt(0) + "/" + e.id.toString().charAt(1) + "/" + e.id.toString().charAt(2) + "/" + e.id + "-home_default.jpg";
+          var container = document.createElement("div");
+          var link = document.createElement("a");
+          link.setAttribute("href", e.link);
+          var photo = document.createElement("img");
+          photo.setAttribute("src", e.image);
+          var title = document.createElement("p");
+          title.innerText = e.name;
+          var price = document.createElement("p");
+          price.innerText = e.price * 1.23 + "zł";
+          link.appendChild(photo);
+          link.appendChild(title);
+          link.appendChild(price);
+          container.appendChild(link);
+          recommendations_row.appendChild(container);
+        })
+      })
+  })
+}
+</script>
+
     <div class="container">
         <div class="section-title">
             <span>{l s='Special' d='Shop.Theme.Catalog'}
