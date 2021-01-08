@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: newdemy-app-3
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+    app: newdemy-app-3
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: newdemy-app-3
+    spec:
+      containers:
+        - env:
+        image: "image_name:latest"
+        imagePullPolicy: "Always"
+        name: newdemy-app-3
+        ports:
+        - containerPort: 80
+        - containerPort: 443
+        resources: {}
+        restartPolicy: Always
+        serviceAccountName: ""
+        volumes: null
+status: {}
