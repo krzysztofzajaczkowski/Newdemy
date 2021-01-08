@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  name: newdemy-app-3
+spec:
+  ports:
+  - name: "80"
+   port: 80
+   targetPort: 80
+     nodePort: 30003
+  - name: "443"
+   port: 443
+   targetPort: 443
+     nodePort: 30103
+  selector:
+    app: newdemy-app-3
+  type: NodePort
+status:
+loadBalancer: {}
